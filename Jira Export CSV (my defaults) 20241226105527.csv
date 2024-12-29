@@ -1,0 +1,1366 @@
+Issue Type,Issue key,Issue id,Summary,Description,Status,Created,Assignee,Assignee Id,Reporter,Reporter Id,Priority,Resolution,Updated,Labels,Labels,Labels,Due date,Custom field (Begin Date),Sprint,Sprint,Parent,Parent summary
+Test Bug,IR-1412,64477,Guided Sale : Text is not reflecting properly ,"Text is not reflecting properly when sending from the chat section after connected with agent happening when sending text without space 
+
+!image-20241226-140132.png|width=1596,height=871,alt=""image-20241226-140132.png""!
+
+!image-20241226-140143.png|width=1920,height=818,alt=""image-20241226-140143.png""!",IN CODE REVIEW,26/Dec/24 9:05 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Medium,,26/Dec/24 9:53 AM,,,,26/Dec/24 12:00 AM,,Release_0014,,62680,IRIS I Guided Sales
+Regression Bug,IR-1411,64476,Guided Sale : Agent is not able to place the order for the patient or guest user,"Agent is not able to place the order for the patient or guest user in both the domains and getting below error
+
+[https://pilot.myeyelabfranchise.com/|https://pilot.myeyelabfranchise.com/|smart-link] 
+
+[https://www.myeyelabfranchise.com/|https://www.myeyelabfranchise.com/|smart-link]    
+
+
+
+!image-20241226-133112.png|width=1044,height=575,alt=""image-20241226-133112.png""!",In Progress,26/Dec/24 8:32 AM,Varun Kumar Tomar,63c4c124bfdb647eb1d94d1c,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Highest,,26/Dec/24 10:09 AM,,,,26/Dec/24 12:00 AM,,Release_0014,,62680,IRIS I Guided Sales
+Sub-task,IR-1405,64469,8.2 Release_0014 - Production Deployment - End User/Business validation,,To Do,26/Dec/24 2:17 AM,Kaydi Gulick,557058:16eb11f4-8e61-44b7-b17d-3a7f6c12df1c,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 2:17 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Sub-task,IR-1404,64468,8.1 Release_0014 - Production Deployment - PROD verification and Signoff,,To Do,26/Dec/24 2:17 AM,Ram Kumar,6322f87404903f8118c3b16b,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 2:17 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Sub-task,IR-1403,64467,7.5 Release_0014 - Production Deployment - Production Deployment - Index Script Execution on IRIS DB (Manual Execution for Heavy/Time Consuming) Indexes,,To Do,26/Dec/24 2:17 AM,Soumen Bose,712020:e167c732-8ced-40f1-9937-dd5eecf1c665,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 2:17 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Sub-task,IR-1402,64466,7.4 Release_0014 - Production Deployment -  Flush Redis,,To Do,26/Dec/24 2:17 AM,Soumen Bose,712020:e167c732-8ced-40f1-9937-dd5eecf1c665,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 2:17 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Sub-task,IR-1401,64465,7.3 Release_0014 - Production Deployment - Set MaxDOP to 16 for database,,To Do,26/Dec/24 2:17 AM,Amit Kumar,712020:36744825-4fb7-42d6-8e26-fc9ae0a08869,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 2:17 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Sub-task,IR-1400,64464,7.2 Release_0014 - Production Deployment - Data Folder SQL Script Execution,,To Do,26/Dec/24 2:17 AM,Amit Kumar,712020:36744825-4fb7-42d6-8e26-fc9ae0a08869,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 2:17 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Sub-task,IR-1399,64463,7.1 Release_0014 - Production Deployment- Code Deployment in PROD,,To Do,26/Dec/24 2:17 AM,Adarsh Yadav,712020:f42cb547-2911-45dd-8430-edc80e91a606,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 2:17 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Sub-task,IR-1398,64462,6. Release_0014 - Production Deployment - Backend Configuration,,To Do,26/Dec/24 2:17 AM,Amit Kumar,712020:36744825-4fb7-42d6-8e26-fc9ae0a08869,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 2:17 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Sub-task,IR-1397,64461,5. Release_0014 - Production Deployment - DB Backup,,To Do,26/Dec/24 2:17 AM,Soumen Bose,712020:e167c732-8ced-40f1-9937-dd5eecf1c665,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 2:17 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Sub-task,IR-1396,64460,4.3 Release_0014 - Production Deployment - Release Tagging Creation & Validation,,To Do,26/Dec/24 2:17 AM,Neha Rustagi,557058:4f83ac2d-02af-482b-982e-87dddb04906d,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 2:17 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Sub-task,IR-1395,64459,4.2 Release_0014 - Production Deployment - Code Merge (Frontend),,To Do,26/Dec/24 2:17 AM,Ayush Singh,63c4c18ce28ec74364cba274,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 2:17 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Sub-task,IR-1394,64458,4.1 Release_0014 - Production Deployment - Code Merge (Backend),,To Do,26/Dec/24 2:17 AM,Sumit Singh,557058:d4c0e691-6e6d-40a8-89ce-f163bad9d100,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 2:17 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Sub-task,IR-1393,64457,3. Release_0014 - Production Deployment - Regression/Performance Signoff  ,,To Do,26/Dec/24 2:17 AM,Ram Kumar,6322f87404903f8118c3b16b,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 10:27 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Sub-task,IR-1392,64456,2. Release_0014 - Production Deployment  - UAT Signoff,,To Do,26/Dec/24 2:17 AM,Kaydi Gulick,557058:16eb11f4-8e61-44b7-b17d-3a7f6c12df1c,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 2:17 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Sub-task,IR-1391,64455,1. Release_0014 - Production Deployment  - QA Signoff,,To Do,26/Dec/24 2:17 AM,Ram Kumar,6322f87404903f8118c3b16b,Automation for Jira,557058:f58131cb-b67d-43c7-b30d-6b58d40bd077,Medium,,26/Dec/24 10:50 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,64453,Release_0014 - Production Deployment
+Task,IR-1389,64453,Release_0014 - Production Deployment,Regular Release to PROD R-14),To Do,26/Dec/24 2:12 AM,Heyat Afroz,712020:335790bc-5217-45d0-a5ed-eb24841035fb,Rahul Roy,712020:a9184712-7918-43f6-9e3a-54c74200f533,Medium,,26/Dec/24 2:17 AM,Deployment,,,02/Jan/25 12:00 AM,,Release_0014,,63210,Production Release Deployment - Tasks
+Sub-task,IR-1381,64442,DB Project update- [IX_OrderStatusTracking_OrderStatusCodeId_SysStartTime],,Done,24/Dec/24 6:24 AM,Sumit Singh,557058:d4c0e691-6e6d-40a8-89ce-f163bad9d100,Adarsh Yadav,712020:f42cb547-2911-45dd-8430-edc80e91a606,Medium,Done,24/Dec/24 9:45 AM,,,,24/Dec/24 12:00 AM,,Release_0014,,63546,Replica -High CPU Query - OrderStatusTracking
+Test Bug,IR-1380,64436,Order - Cash refund is not coming even on the same day due to Time Zone Issue,"Order - Cash refund is not coming even on the same day due to Time Zone Issue
+
+!Screenshot (1959)-20241224-073858.png|width=1707,height=960,alt=""Screenshot (1959)-20241224-073858.png""!
+
+Patient UAT - AutoFnameJEYW AutoLnameNWCL  
+Order Created - 12/23/2024 03:24 PM
+Order Refund Attempted - 12/22/2024 3:25 PM EST but Cash option did not came",Ready For Test,24/Dec/24 2:38 AM,Harshil Gohel,642a83c66d24942109ff2a3b,Rajeev Singh,712020:ccb030da-99b6-4302-b579-06d9c0bca914,Medium,,26/Dec/24 6:38 AM,AutomationTesting,,,24/Dec/24 12:00 AM,,Release_0014,,62405,IRIS I Order
+Test Bug,IR-1373,64425,Contacts: When selecting different brand from the present prescription in patient file on selecting change my brands  popup catalog is not displaying any products.,"When selecting different brand from the present prescription in patient file on selecting change my brands  popup catalog is not displaying any products.
+
+!Record_2024_12_23_16_49_08_591.mp4|width=1360,height=680,alt=""Record_2024_12_23_16_49_08_591.mp4""!",Done,23/Dec/24 6:25 AM,Namrata Maurya,642a85341993b61a5309ad8f,Prateek Ranjan,712020:235e328a-6dc5-4151-b96b-b6dfe5264a49,High,Done,24/Dec/24 10:57 AM,,,,23/Dec/24 12:00 AM,,Release_0014,,,
+Sub-task,IR-1371,64421,DB Project update ,,Done,23/Dec/24 4:42 AM,Sumit Singh,557058:d4c0e691-6e6d-40a8-89ce-f163bad9d100,Adarsh Yadav,712020:f42cb547-2911-45dd-8430-edc80e91a606,Medium,Done,24/Dec/24 9:45 AM,,,,24/Dec/24 12:00 AM,,Release_0014,,64420,Missing Index on table - [StoreReplenishmentRequestDetail_PpcStoreMarketingDMAMapping_EmployeePromotionPayroll_Cart_User_OrderLineItem]
+Story,IR-1370,64420,Missing Index on table - [StoreReplenishmentRequestDetail_PpcStoreMarketingDMAMapping_EmployeePromotionPayroll_Cart_User_OrderLineItem],"We add missing index in db as per Datavail’s query.
+
+[^1370_index.sql]
+
+",Ready For Test,23/Dec/24 4:24 AM,Adarsh Yadav,712020:f42cb547-2911-45dd-8430-edc80e91a606,Adarsh Yadav,712020:f42cb547-2911-45dd-8430-edc80e91a606,Medium,,24/Dec/24 9:33 AM,DBmaintenance,Index,,25/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Test Bug,IR-1366,64408,Lens selection UI - Even after unchecking Mirror Coating for Polarized it is there affecting other selection,"Lens selection UI - Even after unchecking Mirror Coating for Polarized it is there affecting other selection - 
+
+-Even after Unchecking Mirror Coating for Polarized it is not being Removed From Lens Selection and Price are showing (x)
+
+!UAT_Mirror_Coating_Unchecked_But_NotRemovedFromLensSelection.mp4|width=41.66666666666667%,alt=""UAT_Mirror_Coating_Unchecked_But_NotRemovedFromLensSelection.mp4""!
+
+-Even after Unchecking Mirror Coating for Polarized it is affecting Light Respondent and not Allowing Even After Color Selection (x)
+
+!UAT_Light_Respondent_NoT_Allowing_EvenAfterColor_Selection-20241220-135247.png|width=41.66666666666667%,alt=""UAT_Light_Respondent_NoT_Allowing_EvenAfterColor_Selection-20241220-135247.png""!",Done,20/Dec/24 9:44 AM,Abhishek Mishra,712020:31fcea2f-d5ac-4184-ac19-998a8363c22b,Rajeev Singh,712020:ccb030da-99b6-4302-b579-06d9c0bca914,High,Done,23/Dec/24 9:35 AM,,,,21/Dec/24 12:00 AM,,Release_0014,,62405,IRIS I Order
+Test Bug,IR-1364,64406,"Packing slip- although trace is pending, it is not updating the status from order processed to pending store trace for jobs assigned as Frame to Trace and Mount and trace.","if  trace is pending, it is not updating the status from order processed to pending store trace ",Done,20/Dec/24 6:35 AM,Varun Kumar Tomar,63c4c124bfdb647eb1d94d1c,Megha Gore,712020:783ab445-c354-4fe1-b06f-b1b5a8cbdbd4,Medium,Done,23/Dec/24 10:38 AM,Release_0014,,,20/Dec/24 12:00 AM,,Release_0014,,,
+Test Bug,IR-1362,64404,Inconsistent Default Date When Booking Appointments as a Guest User/Patient,"When booking an appointment as a guest or patient, the default date is inconsistent. It occasionally defaults to April 2025 or the next date (tomorrow's date) instead of defaulting to the current date.
+
+*Note* - During the recording, the store selected operates in the EST time zone. When I attempted to book an appointment at 1:00 AM IST on December 20th, the displayed date aligned with the local machine's time zone instead of the store's EST time zone(19th Dec). This discrepancy could be the primary cause of the inconsistent default date behavior.",In Progress,20/Dec/24 3:50 AM,Eduardo Varela,712020:e266ad71-fd58-4f3f-ba64-e5193d1eaa1d,Nipun Mehta,712020:b066d1ee-e16f-492e-a971-3b84741de7af,Medium,,26/Dec/24 1:41 AM,AutomationTesting,,,24/Dec/24 12:00 AM,,Release_0014,,62237,IRIS I Book Appointment/ Scheduler
+Test Bug,IR-1359,64401,"No "" Transfer Mode "" is populated for transfer done from the OCC page.","When we transfer an Order from the OCC page, then the “Transfer Mode “ doesn’t get populated in the History page .
+
+reference order on UAT - 125056683",Done,19/Dec/24 1:06 PM,Tirlochan Singh,712020:47ce8f43-63fa-4844-afd4-a56b885517d8,Nimmi Joseph,712020:c3e5eacc-61f8-40ad-a028-b35e4fec2257,High,Done,20/Dec/24 9:34 AM,Release_0014,,,20/Dec/24 12:00 AM,,Release_0014,,,
+Test Bug,IR-1358,64400,Only the job currently transferred populates in the Job history page  when the user is navigated to the page after transfer of the order,"When a job is trasferred and the user is redirected to the Job transfer history page , then as per requirement in ticket , it should populate the history f teh job transfers, with the current transfer doe populating at the top.
+
+But right  now it only populates the current job transferred and not the rest",Deprecate,19/Dec/24 12:43 PM,Tirlochan Singh,712020:47ce8f43-63fa-4844-afd4-a56b885517d8,Nimmi Joseph,712020:c3e5eacc-61f8-40ad-a028-b35e4fec2257,High,Not Needed,20/Dec/24 2:36 AM,,,,,,Release_0014,,,
+Test Bug,IR-1357,64398,Invalid bread crumbs in the Job Transfer History page.,"When a job is transferred from the job transfer page, then the user is redirected to the Job transfer history page.
+
+The bread crumbs displayed has invalid text at the end.
+
+!image-20241219-173040.png|width=1343,height=702,alt=""image-20241219-173040.png""!",Deprecate,19/Dec/24 12:33 PM,Namrata Maurya,642a85341993b61a5309ad8f,Nimmi Joseph,712020:c3e5eacc-61f8-40ad-a028-b35e4fec2257,High,Not Needed,20/Dec/24 1:42 AM,Release_0014,,,,,Release_0014,,,
+Test Bug,IR-1353,64393,Patient Login - For Patient login My account option for login is coming on hovering but after partially entering phone number it is not staying at that screen,"For Patient login My account option for login is coming on hovering but after partially entering phone number it is not staying at that screen
+
+!Prescription Glasses, Contacts & Eye Exams _ Stanton Optical - Google Chrome 2024-12-19 17-05-01.mp4|width=1376,height=736,alt=""Prescription Glasses, Contacts & Eye Exams _ Stanton Optical - Google Chrome 2024-12-19 17-05-01.mp4""!",Done,19/Dec/24 6:53 AM,Eduardo Varela,712020:e266ad71-fd58-4f3f-ba64-e5193d1eaa1d,Rajeev Singh,712020:ccb030da-99b6-4302-b579-06d9c0bca914,High,Done,20/Dec/24 9:50 AM,AutomationTesting,,,20/Dec/24 12:00 AM,,Release_0014,,,
+Test Bug,IR-1352,64392,Incorrect Frame and Lens Source Display in Jobsheet on Force Transfer,"When performing a force transfer for a store-complete job and Remote Edge Job, the frame source and lens source are not displayed correctly in the jobsheet. This issue affects the accuracy of the job details, leading to confusion during processing.",Done,19/Dec/24 6:48 AM,Nipun Mehta,712020:b066d1ee-e16f-492e-a971-3b84741de7af,Nipun Mehta,712020:b066d1ee-e16f-492e-a971-3b84741de7af,Medium,Done,26/Dec/24 6:28 AM,AutomationTesting,,,20/Dec/24 12:00 AM,,Release_0014,,62405,IRIS I Order
+Test Bug,IR-1351,64391,Unable to open create account page once logged out from associate login,"*Steps*
+
+* Login as an associate in UAT env
+* Search for a store and select it - this step is needed in order for the issue to be replicable
+* Now logout from associate
+* Click on “My Account” → Create a new account
+
+*Actual Behaviour:* 
+
+# Nothing happens if we click on “Create a new account“ button
+# Nothing happens if we click on “Book Eye exam“ button too
+
+Check the video below to replicate the issue in UAT
+
+[https://app.betterbugs.io/session/6763fd2cd1930a343e5caf38|https://app.betterbugs.io/session/6763fd2cd1930a343e5caf38|smart-link] 
+
+*Expected Behaviour:*
+
+Create account page should open
+
+*Note*: this works fine in STG",Done,19/Dec/24 6:15 AM,Sanjib Kumar Majhi,63c4c1e1d7f68827e6b549b0,Bijit Pattanaik,62388c3e01f8660070b546ef,Medium,Done,26/Dec/24 3:53 AM,AutomationTesting,,,20/Dec/24 12:00 AM,,Release_0014,,,
+Test Bug,IR-1350,64390,Guided sale- not able to mark the close for the day from setup,if store is closed for the day then it should be reflected same on UI for patient/guest,Done,19/Dec/24 6:03 AM,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Megha Gore,712020:783ab445-c354-4fe1-b06f-b1b5a8cbdbd4,Medium,Done,23/Dec/24 8:48 AM,,,,19/Dec/24 12:00 AM,,Release_0014,,,
+Test Bug,IR-1349,64389,Intake - Medical form Setup page is throwing Application error,"Intake - Medical form Setup page is throwing Application error
+
+!image-20241219-095538.png|width=1693,height=836,alt=""image-20241219-095538.png""!",Done,19/Dec/24 4:56 AM,Adityesh Mishra,642a858496822e1821fe337c,Rajeev Singh,712020:ccb030da-99b6-4302-b579-06d9c0bca914,High,Done,19/Dec/24 7:17 AM,,,,19/Dec/24 12:00 AM,,Release_0014,,63669,IRIS | Medical Form
+Test,IR-1345,64384,Test case to verify mutiple assignments happening when the Transfer button is clicke multiple times for a single transfer.,"Test case to verify mutiple assignments happening when the Transfer button is clicke multiple times for a single transfer.
+
+[https://stanton.atlassian.net/browse/IR-381|https://stanton.atlassian.net/browse/IR-381|smart-link] ",Ready For Test,19/Dec/24 2:54 AM,Nimmi Joseph,712020:c3e5eacc-61f8-40ad-a028-b35e4fec2257,Nimmi Joseph,712020:c3e5eacc-61f8-40ad-a028-b35e4fec2257,Medium,,19/Dec/24 6:01 AM,Release_0014,,,,,Release_0014,,,
+Test Bug,IR-1338,64375,Associate : Few cases are not working with store search,"As an associate view when searching with the city name then not displaying all the stores within the 50 miles
+
+and for the associate as well as patient and guest view when any invalid store is been search with city or zipcode then if no result is been found then it should display text as ‘No stores found' text 
+
+
+
+!image-20241218-172057.png|width=1280,height=593,alt=""image-20241218-172057.png""!",Done,18/Dec/24 12:25 PM,Tirlochan Singh,712020:47ce8f43-63fa-4844-afd4-a56b885517d8,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,High,Done,20/Dec/24 9:34 AM,,,,20/Dec/24 12:00 AM,,Release_0014,,,
+Test Bug,IR-1327,64361,Guided Sale : Guest promo appearing not able to enter the details in the need help shopping ,As a guest user when promo appears as soon as the url loaded then not able to enter the details in the need help shopping even though try to cancel it by clicking on the cross button,Done,18/Dec/24 7:28 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,High,Done,19/Dec/24 11:29 AM,,,,18/Dec/24 12:00 AM,,Release_0014,,,
+Test Bug,IR-1324,64358,Guided sale [Mobile and Tablet Portrait Mode] : Alignment confirmation ,"In Mobile and Tablet portrait mode when agent is sharing the screen then it is currently displaying as below : 
+
+
+
+!image-20241218-113246.png|width=800,height=1280,alt=""image-20241218-113246.png""!
+
+
+
+!image-20241218-113257.png|width=720,height=1600,alt=""image-20241218-113257.png""!
+
+And as per the ticket [https://stanton.atlassian.net/browse/IR-259?focusedCommentId=102795|https://stanton.atlassian.net/browse/IR-259?focusedCommentId=102795|smart-link] 
+
+!image-20241017-110909.png|width=50%,alt=""image-20241017-110909.png""!
+
+but due resolution and screen size changes it is displaying one under other and camera size is now reduced ",Deprecate,18/Dec/24 6:39 AM,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,High,Not Needed,20/Dec/24 2:06 AM,,,,,,Release_0014,,,
+Production Bug,IR-1323,64357,Internal Server Error and Unresponsive Page on Merging/Cancelling existing Carts,"* When a user logs out after creating a cart, adds a product to the cart while logged out, and then logs in selecting the ""Merge"" option, an Internal Server Error occurs. Despite the error, the product gets added to the cart
+Same is happening when Selecting “Cancel“ while merging cart
+* When a user creates a cart containing Eye Health Supplements, logs out, and then adds the same product to the cart while logged out as a guest. Upon logging back in and selecting the ""Merge Carts"" option, an Internal Server Error occurs, causing the page to become unresponsive. Additionally, the confirmation dialog cannot be closed.
+
+!image-20241218-131306.png|width=1914,height=786,alt=""image-20241218-131306.png""!
+
+
+
+!image-20241218-131320.png|width=1919,height=950,alt=""image-20241218-131320.png""!",Done,18/Dec/24 6:38 AM,Harshil Gohel,642a83c66d24942109ff2a3b,Nipun Mehta,712020:b066d1ee-e16f-492e-a971-3b84741de7af,Medium,Done,23/Dec/24 2:07 AM,,,,20/Dec/24 12:00 AM,,Release_0014,,62403,IRIS I Cart/ Checkout
+Test Bug,IR-1322,64355,Internal Server Error on Cart Merge/Cancel During Login,"When a user logs out after creating a cart, adds a product to the cart while logged out, and then logs in selecting the ""Merge"" option, an Internal Server Error occurs. Despite the error, the product gets added to the cart
+
+Same is happening when Selecting “Cancel“ while merging cart
+
+!image-20241218-104611.png|width=1701,height=699,alt=""image-20241218-104611.png""!
+
+!image-20241218-104601.png|width=1706,height=844,alt=""image-20241218-104601.png""!",Deprecate,18/Dec/24 5:48 AM,Harshil Gohel,642a83c66d24942109ff2a3b,Nipun Mehta,712020:b066d1ee-e16f-492e-a971-3b84741de7af,Medium,Not Needed,18/Dec/24 8:12 AM,,,,19/Dec/24 12:00 AM,,Release_0014,,62403,IRIS I Cart/ Checkout
+Test Bug,IR-1318,64345,Reload button doesn't work patient's order -> Product orders and Orders group page,"Reload button doesn't work patient's order -> Product orders and Orders group page. Clicking on it, nothing happens and the updated data doesn’t reflect
+
+!2024_12_18_12_45_44_Patient_Stanton_Optical.png|width=948,height=452,alt=""2024_12_18_12_45_44_Patient_Stanton_Optical.png""!
+
+!2024_12_18_12_44_50_Patient_Stanton_Optical.png|width=941,height=387,alt=""2024_12_18_12_44_50_Patient_Stanton_Optical.png""!",Done,18/Dec/24 2:22 AM,Subesh Singh,712020:812ecddd-8e45-4a4e-bd41-6931c90f237b,Bijit Pattanaik,62388c3e01f8660070b546ef,Medium,Done,20/Dec/24 6:16 AM,AutomationTesting,,,19/Dec/24 12:00 AM,,Release_0014,,62405,IRIS I Order
+Test Bug,IR-1317,64344,Guided Sale [Mobile and Tablet view] Once the agent share the screen then user is not able to view the minimize side section as well as not able to access the chat ,Once the user connect with agent through the mobile and tablet portrait view and agent start the screen sharing then patient or guest user is not able to view the side bar minimize section and also not able to access the chat functionality ,Done,18/Dec/24 2:01 AM,Monika Goyal,642a87ef22330bdf97ab286a,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Highest,Done,24/Dec/24 2:42 AM,,,,18/Dec/24 12:00 AM,,Release_0014,,,
+Test Bug,IR-1315,64335,Options under prescription type is not displayed correctly,"The checkbox for *_Upgrade to Standard Anti-Glare Coating_* and *_Upgrade to Premium Anti-Glare for superior scratch-resistance and cleaning properties_* are not displayed. Check the below screenshot
+
+!2024-12-18 10_43_52-Settings.png|width=959,height=354,alt=""2024-12-18 10_43_52-Settings.png""!
+
+!2024-12-18 10_44_21-Settings.png|width=956,height=339,alt=""2024-12-18 10_44_21-Settings.png""!
+
+It should show the checkbox name as shown below: 
+
+!2024_12_18_10_52_19_192.168.200.192_Remote_Desktop_Connection.png|width=784,height=299,alt=""2024_12_18_10_52_19_192.168.200.192_Remote_Desktop_Connection.png""!",Done,18/Dec/24 12:26 AM,Abhishek Mishra,712020:31fcea2f-d5ac-4184-ac19-998a8363c22b,Bijit Pattanaik,62388c3e01f8660070b546ef,High,Done,20/Dec/24 2:01 AM,AutomationTesting,,,19/Dec/24 12:00 AM,,Release_0014,,62405,IRIS I Order
+Test Bug,IR-1309,64328,Inventory Cycle Count : Brand dropdown is having brands which are not frame and multiple records of same brands are coming.,"Brand dropdown is having brands which are not frame and multiple records of same brands are coming.
+
+
+
+!Record_2024_12_17_20_37_17_180.mp4|width=1360,height=680,alt=""Record_2024_12_17_20_37_17_180.mp4""!",In Progress,17/Dec/24 10:18 AM,Srujana Uppalapati,712020:2dd0ba7c-3502-4105-a7a6-de12becab0c2,Prateek Ranjan,712020:235e328a-6dc5-4151-b96b-b6dfe5264a49,Medium,,23/Dec/24 9:57 AM,,,,18/Dec/24 12:00 AM,,Release_0014,,,
+Test Bug,IR-1308,64327,Agent view (Guided Sale ) : Store selection reflecting as associate view ,",  can you please confirm on the query : When agent share the screen as Eye care specialist and after entering the store name or zipcode from the central search or from the ‘FIND A STORE’ button from the home page or from the pdp page it is displaying the page as the associate view like displaying the single store not the store within the 50 miles and  SO MEL selection",To Do,17/Dec/24 9:57 AM,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Medium,,24/Dec/24 2:26 AM,,,,,,Release_0014,,,
+Test Bug,IR-1307,64326,"Cart Merge Behavior Incorrect After Logging In and Selecting ""Cancel""","When a user logs out after creating a cart and then adds a product as a guest user before logging back in, selecting *""No/Cancel""* to the merge cart prompt should prevent the product from being added to the cart. However, the product is still being added, which is not the expected behavior.",Deprecate,17/Dec/24 9:50 AM,Harshil Gohel,642a83c66d24942109ff2a3b,Nipun Mehta,712020:b066d1ee-e16f-492e-a971-3b84741de7af,Medium,Not Needed,18/Dec/24 4:36 AM,,,,20/Dec/24 12:00 AM,,Release_0014,,62403,IRIS I Cart/ Checkout
+Test Bug,IR-1306,64325,Total Amount is Incorrect on Cash Collected Report.,"*Steps to reproduce it-*
+
+# Login to IRIS as Associate.
+# Switch to Store.
+# Go To Operations->CC Report
+# Select date range and search.
+# Validate the Total Amount calculated for each day.
+*Total is not matching with the calculated sum of 'Paid Amount' column. [INCORRECT] (x)*
+
+
+
+!image-20241217-144944.png|width=1600,height=900,alt=""image-20241217-144944.png""!",Done,17/Dec/24 9:49 AM,Namrata Maurya,642a85341993b61a5309ad8f,Minakshi Singh,712020:691864c0-08be-484a-a79c-15d7fd1d3a1a,Medium,Done,19/Dec/24 2:56 AM,,,,18/Dec/24 12:00 AM,,Release_0014,,,
+Test Bug,IR-1303,64322,Insurance Orders are not displayed in the Cash Collected Report,"*Steps to reproduce it-*
+
+# Login to IRIS as Associate.
+# Switch to Store.
+# Go To Operations->CC Report
+# Select date range which consist of Insurance Orders.
+*Insurance Orders are NOT displayed. [INCORRECT]* (x)
+
+
+
+!image-20241217-144038.png|width=1600,height=900,alt=""image-20241217-144038.png""!
+
+!image-20241217-144045.png|width=1600,height=900,alt=""image-20241217-144045.png""!
+
+
+
+!image-20241217-144109.png|width=1600,height=900,alt=""image-20241217-144109.png""!",Done,17/Dec/24 9:42 AM,Namrata Maurya,642a85341993b61a5309ad8f,Minakshi Singh,712020:691864c0-08be-484a-a79c-15d7fd1d3a1a,Medium,Done,18/Dec/24 7:56 AM,,,,18/Dec/24 12:00 AM,,Release_0014,,,
+Test,IR-1302,64321,"Test case to verify for HILCO replenishment ,when the  Requested quantity is zero doesn't move to on order","Test case to verify for HILCO replenishment ,when the  Requested quantity is zero doesn't move to on order.
+
+Related ticket- [https://stanton.atlassian.net/browse/IR-1007|https://stanton.atlassian.net/browse/IR-1007|smart-link] ",Done,17/Dec/24 9:31 AM,Nimmi Joseph,712020:c3e5eacc-61f8-40ad-a028-b35e4fec2257,Nimmi Joseph,712020:c3e5eacc-61f8-40ad-a028-b35e4fec2257,Medium,Done,18/Dec/24 7:43 AM,,,,,,Release_0014,,,
+Sub-task,IR-1300,64319,UI changes: check for total available count for refer a friend club on care details page ,,Done,17/Dec/24 8:53 AM,Monika Goyal,642a87ef22330bdf97ab286a,Dharmik Ginoya,712020:069ef254-4266-4cb4-b69f-1cd04365bede,Medium,Done,18/Dec/24 12:16 PM,,,,18/Dec/24 12:00 AM,,Release_0014,,62769,Loyalty Club : Rows are not updating correctly when loyalty club is redeemed.
+Test,IR-1270,64275,"TP/T - Mobile - Multiple screens do not go back to the top of the screen when advancing next, for example medical form","TP/T - Mobile - Multiple screens do not go back to the top of the screen when advancing next, for example medical form
+
+Multiple screens do not go back to the top of the screen when advancing next as Below mentioned :
+
+# When selected the Book Appointment for someone else or as Guest then selected the time slot and click on the next then screen remains at the bottom
+# While Filling the medical form and then after filling the Eye Health section then screen remains at the bottom for the General Health and Social History section and after filling the medical form then also screen remains at the bottom
+# While clicking on the Pagination number for the next page then also screen remains at the bottom , applicable for all the section where pagination present ( For example : Favorites , My Appointments , Order History , etc)
+
+ 
+
+!image-20240827-104227.png|width=263,height=558,alt=""image-20240827-104227.png""!",Done,16/Dec/24 9:37 AM,Rajeev Singh,712020:ccb030da-99b6-4302-b579-06d9c0bca914,Rajeev Singh,712020:ccb030da-99b6-4302-b579-06d9c0bca914,Medium,Done,18/Dec/24 9:31 AM,,,,,,Release_0014,,,
+Test Bug,IR-1269,64274,Favorites[Patient Login] : Few cases are not working with Favorites,"Few cases are not working with Favorites : 
+
+# After doing refresh two times or sometime one time then heart shape icon is getting
+deselected from the Eye Health and contacts  catalog page 
+# After doing the sign out then doing the logged in then heart shape
+icon is getting deselected from the Eye Health and contacts and Eyeglasses, sunglasses catalog page 
+# After clicking on the remove from the Favorite(under My Account)  then it is throwing product not found error
+# Products which is having default image in Eye Health then is not displaying in the favorites sections",Done,16/Dec/24 8:58 AM,Namrata Maurya,642a85341993b61a5309ad8f,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,High,Done,18/Dec/24 10:19 AM,,,,18/Dec/24 12:00 AM,,Release_0014,,45434,IRIS - Patient Module - Phase 2
+Sub-task,IR-1262,64267,4. UAT-Release_0014 - Post Deployment Verification (UAT),,Done,16/Dec/24 5:37 AM,Amit Kumar,712020:36744825-4fb7-42d6-8e26-fc9ae0a08869,Rahul Roy,712020:a9184712-7918-43f6-9e3a-54c74200f533,Medium,Done,17/Dec/24 1:12 AM,,,,17/Dec/24 12:00 AM,,Release_0014,,64262,Release_0014 -  Dev to UAT Deployment
+Sub-task,IR-1261,64266,3. UAT-Release_0014 - Data Script Execution to UAT,,Done,16/Dec/24 5:37 AM,Soumen Bose,712020:e167c732-8ced-40f1-9937-dd5eecf1c665,Rahul Roy,712020:a9184712-7918-43f6-9e3a-54c74200f533,Medium,Done,17/Dec/24 8:24 AM,,,,17/Dec/24 12:00 AM,,Release_0014,,64262,Release_0014 -  Dev to UAT Deployment
+Sub-task,IR-1260,64265,2. UAT-Release_0014 - Deployment to UAT,,Done,16/Dec/24 5:37 AM,Amit Kumar,712020:36744825-4fb7-42d6-8e26-fc9ae0a08869,Rahul Roy,712020:a9184712-7918-43f6-9e3a-54c74200f533,Medium,Done,17/Dec/24 1:11 AM,,,,17/Dec/24 12:00 AM,,Release_0014,,64262,Release_0014 -  Dev to UAT Deployment
+Sub-task,IR-1259,64264,1.2 UAT-Release_0014 - Code Merge (Frontend),,Done,16/Dec/24 5:37 AM,Ayush Singh,63c4c18ce28ec74364cba274,Rahul Roy,712020:a9184712-7918-43f6-9e3a-54c74200f533,Medium,Done,16/Dec/24 10:27 AM,,,,16/Dec/24 12:00 AM,,Release_0014,,64262,Release_0014 -  Dev to UAT Deployment
+Sub-task,IR-1258,64263,1.1 UAT-Release_0014 - Code Merge (Backend),,Done,16/Dec/24 5:36 AM,Sumit Singh,557058:d4c0e691-6e6d-40a8-89ce-f163bad9d100,Rahul Roy,712020:a9184712-7918-43f6-9e3a-54c74200f533,Medium,Done,16/Dec/24 10:16 AM,,,,16/Dec/24 12:00 AM,,Release_0014,,64262,Release_0014 -  Dev to UAT Deployment
+Task,IR-1257,64262,Release_0014 -  Dev to UAT Deployment,Dev to UAT deployment of Sprint R-14,Done,16/Dec/24 5:35 AM,Heyat Afroz,712020:335790bc-5217-45d0-a5ed-eb24841035fb,Rahul Roy,712020:a9184712-7918-43f6-9e3a-54c74200f533,Medium,Done,17/Dec/24 8:25 AM,,,,18/Dec/24 12:00 AM,,Release_0014,,63699,Lower Environment Deployment - Tasks
+Test,IR-1245,64246,TP/T - Mobile / Tablet (Portrait) - Guided Sale : Few cases with the camera are not working after connecting with the Agent,,Done,14/Dec/24 7:33 AM,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Medium,Done,17/Dec/24 10:19 AM,,,,,,Release_0014,,,
+Test,IR-1244,64245,TP/T - Support for Multiple Domain Access in Guided Sales for Patient and Agent,,Testing,14/Dec/24 4:20 AM,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Medium,,26/Dec/24 8:36 AM,,,,,,Release_0014,,62680,IRIS I Guided Sales
+Test,IR-1243,64244,TP/T - Add Refresh Functionality to Table Grid on Remaining Pages,"As a user of the application,
+We want to be able to refresh the data displayed in the table grid on all remaining pages,
+so that I can view the most up-to-date information without having to navigate away or reload the entire page.
+
+ 
+
+[https://nowoptics-my.sharepoint.com/:x:/p/smajhi/EUd5J1x3AZFBkaowe_TSsCwBmOGm6bBrNAQKlk31nCdqdg?e=ccHovR|https://nowoptics-my.sharepoint.com/:x:/p/smajhi/EUd5J1x3AZFBkaowe_TSsCwBmOGm6bBrNAQKlk31nCdqdg?e=ccHovR|smart-link]",Done,13/Dec/24 11:40 PM,Rajeev Singh,712020:ccb030da-99b6-4302-b579-06d9c0bca914,Rajeev Singh,712020:ccb030da-99b6-4302-b579-06d9c0bca914,Medium,Done,17/Dec/24 9:29 AM,,,,,,Release_0014,,,
+Test,IR-1240,64236,TP/T - Customer/Support- Enhancement/Feedback from UAT stakeholders,,Done,13/Dec/24 7:25 AM,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Medium,Done,18/Dec/24 3:03 AM,,,,,,Release_0014,,,
+Test,IR-1239,64235,TP/T - Guided Sale [Mobile View] : When promo is been displayed then user is not able to click on the cross button to cancel it,,Done,13/Dec/24 7:24 AM,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Medium,Done,24/Dec/24 3:03 AM,,,,,,Release_0014,,,
+Test,IR-1238,64234,TP/T - My Account: Favorites[Patient Login] : Favorites should be added to category pages for Eye Health and Contacts,,Done,13/Dec/24 7:23 AM,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Medium,Done,18/Dec/24 10:14 AM,,,,,,Release_0014,,,
+Test,IR-1237,64233,TP/T - Mobile Landscape view - Guided sale - Patient is not able to view agent's name and video,,Done,13/Dec/24 7:21 AM,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Medium,Done,24/Dec/24 3:21 AM,,,,,,Release_0014,,,
+Test,IR-1236,64232,TP/T - Data Fix : Change the payment tender type and balance due For Order Group Id : 15008755,,Ready For Test,13/Dec/24 7:20 AM,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Medium,,14/Dec/24 7:30 AM,,,,,,Release_0014,,,
+Test,IR-1235,64231,TP/T - Error Message on Dispensing Order,,Ready For Test,13/Dec/24 7:19 AM,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Medium,,16/Dec/24 11:24 AM,,,,,,Release_0014,,,
+Test,IR-1234,64230,TP/T - Order I Lens Selection UI,,Done,13/Dec/24 7:17 AM,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Medium,Done,23/Dec/24 1:21 AM,,,,,,Release_0014,,,
+Enhancement,IR-1232,64226,Support for Multiple Domain Access in Guided Sales for Patient and Agent,"Enable support for patients accessing the guided sales platform via [*https://www.stantonoptical.com/*|https://www.stantonoptical.com/], while agents join from [*https://pilot.stantonoptical.com/*|https://pilot.stantonoptical.com/]. This will allow seamless interaction and consistent functionality across two different domains, ensuring a smooth guided sales experience for both the patient and the agent.",Ready For Test,13/Dec/24 5:11 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Medium,,26/Dec/24 10:05 AM,,,,13/Dec/24 12:00 AM,,Release_0014,,62680,IRIS I Guided Sales
+Test,IR-1231,64225,TP/T - VTO (Associate User) : After clicking on the Buy Now then should land on the PDP,"As an Associate login when click on the Buy Now then it should land on the PDP page , currently landing on the below page",Done,13/Dec/24 4:09 AM,Rajeev Singh,712020:ccb030da-99b6-4302-b579-06d9c0bca914,Rajeev Singh,712020:ccb030da-99b6-4302-b579-06d9c0bca914,Low,Done,18/Dec/24 9:30 AM,,,,,,Release_0014,,,
+Test,IR-1213,64207,TP/T - Appointment Scheduler : Not able to book an appointment after updating the working hours for the day which is having the additional working hour configured,Associate user is not able to book an appointment for the patient for the day which is having already existing working hours but associate is able to view the slot but throwing an error below,Done,13/Dec/24 3:30 AM,Rajeev Singh,712020:ccb030da-99b6-4302-b579-06d9c0bca914,Rajeev Singh,712020:ccb030da-99b6-4302-b579-06d9c0bca914,High,Done,17/Dec/24 9:21 AM,,,,,,Release_0014,,,
+Test,IR-1211,64205,TP/T - Home I Select Store I Associate Should See Stores within a 50-Mile Radius When Searching by City or Zip Code,,Done,13/Dec/24 2:55 AM,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Medium,Done,24/Dec/24 2:36 AM,,,,,,Release_0014,,,
+Test Bug,IR-1209,64201,Guided Sale : As a Patient logged in and connected with agent and then patient sign out then Still the patient is connected with Agent ,As a Patient logged in and then connected with the agent and then patient is doing the sign out but still patient is in call with agent ,Deprecate,13/Dec/24 2:09 AM,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,High,Not Needed,16/Dec/24 9:42 AM,,,,,,Release_0014,,,
+Sub-task,IR-1207,64200,UI: changes for add checkbox in store setup ,,Done,13/Dec/24 2:07 AM,Namrata Maurya,642a85341993b61a5309ad8f,Dharmik Ginoya,712020:069ef254-4266-4cb4-b69f-1cd04365bede,Medium,Done,16/Dec/24 10:22 AM,,,,14/Dec/24 12:00 AM,,Release_0014,,64019,Request to update logic for not send communication for inactive stores for the scheduled communication
+Sub-task,IR-1206,64199,API: Backend changes ,,Done,13/Dec/24 2:06 AM,Dharmik Ginoya,712020:069ef254-4266-4cb4-b69f-1cd04365bede,Dharmik Ginoya,712020:069ef254-4266-4cb4-b69f-1cd04365bede,Medium,Done,16/Dec/24 2:30 AM,,,,14/Dec/24 12:00 AM,,Release_0014,,64019,Request to update logic for not send communication for inactive stores for the scheduled communication
+Test,IR-1183,64156,"Test case to verify the prefixing of """"F"" to the license plate number in XML for DC edge SP orders","Test case to verify the prefixing of """"F"" to the license plate number in XML for DC edge SP orders.
+
+Related ticket- [https://stanton.atlassian.net/browse/IR-786|https://stanton.atlassian.net/browse/IR-786|smart-link] 
+
+DC Complete Job- no change
+
+DC edge job- Append “F”
+
+DC Remote edge - No change
+
+Remake Dc edge job - Append “F”
+
+REjected DC Complete Job- no change
+
+Rejected DC edge job- Append “F”
+
+Rejected DC Remote edge - No change
+
+Transferred DC Complete Job- no change
+
+Transferred DC edge job- Append “F”
+
+Transferred DC Remote edge - No change",Testing,12/Dec/24 9:38 AM,Nimmi Joseph,712020:c3e5eacc-61f8-40ad-a028-b35e4fec2257,Nimmi Joseph,712020:c3e5eacc-61f8-40ad-a028-b35e4fec2257,Medium,,20/Dec/24 7:12 AM,Release_0014,,,,,Release_0014,,,
+Production Bug,IR-1154,64101,Packing slip- the orders are not getting received at cdc although it is marked as frame received manually ,"pick any order from store active packing slip with status as order processed
+
+FYI- it was working till last release.
+
+as per BRD- 
+
+!image-20241211-125233.png|width=1280,height=720,alt=""image-20241211-125233.png""!",Done,11/Dec/24 7:53 AM,Dilpreet Singh,712020:3c5d9573-527e-47a6-a9a4-d62d172400cf,Megha Gore,712020:783ab445-c354-4fe1-b06f-b1b5a8cbdbd4,High,Done,26/Dec/24 9:55 AM,,,,24/Dec/24 12:00 AM,,Release_0014,,,
+Sub-task,IR-1150,64097,Load data into CycleCountBrandType from MasterProduct table ,Need to validate current masterlookup brands are not used in any other table ,Done,11/Dec/24 3:25 AM,Adarsh Yadav,712020:f42cb547-2911-45dd-8430-edc80e91a606,Surbhi Bhasin,63dd1f58c2b1cb6b3471a8f4,Medium,Done,16/Dec/24 3:26 AM,,,,16/Dec/24 12:00 AM,,Release_0014,,63549,Remove mappings of Master lookup brand codes 
+Enhancement,IR-1110,64019,Request to update logic for not send communication for inactive stores for the scheduled communication,"*As* a user,
+*I want* to add a checkbox for ""Disable Patient Communication"" in the Store Setup,
+*so that* when this checkbox is selected, no communication (such as emails, notifications, or messages) will be sent to the patients.
+
+
+
+h3. *Acceptance Criteria:*
+
+# *Checkbox Availability:*
+#* A checkbox labeled ""Disable Patient Communication"" should be visible in the Store Setup section of the admin interface.
+# *Default State:*
+#* The checkbox should be unchecked by default when the user accesses the Store Setup page.
+# *Functionality:*
+#* If the ""Disable Patient Communication"" checkbox is checked, the system must ensure that no communication (emails, SMS, app notifications, etc.) is sent to any patient associated with the store.
+#* If the checkbox is unchecked, communication should proceed as usual.",Done,10/Dec/24 4:03 AM,Dharmik Ginoya,712020:069ef254-4266-4cb4-b69f-1cd04365bede,Ram Kumar,6322f87404903f8118c3b16b,Medium,Done,20/Dec/24 1:44 AM,,,,14/Dec/24 12:00 AM,,Release_0014,,62411,IRIS I Patient Communication
+Sub-task,IR-1098,64003,Backend changes for lens selection UI changes,,Deprecate,09/Dec/24 7:56 AM,Harshil Gohel,642a83c66d24942109ff2a3b,Harshil Gohel,642a83c66d24942109ff2a3b,Medium,Duplicate,09/Dec/24 8:02 AM,,,,,,Release_0014,,59327,Order I Lens Selection UI
+Sub-task,IR-1097,64002,Backend Changes ,,Done,09/Dec/24 7:56 AM,Harshil Gohel,642a83c66d24942109ff2a3b,Ayush Singh,63c4c18ce28ec74364cba274,Medium,Done,18/Dec/24 1:45 AM,,,,17/Dec/24 12:00 AM,,Release_0014,,59327,Order I Lens Selection UI
+Sub-task,IR-1095,63999,Check Eligibility for Guided Sales Functionality at the State Level (Customer-Facing),,Done,09/Dec/24 7:03 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Ayush Singh,63c4c18ce28ec74364cba274,Medium,Done,12/Dec/24 7:41 AM,,,,13/Dec/24 12:00 AM,,Release_0014,,63993,Guided Sales | Statewise launch
+Sub-task,IR-1094,63998,"Add ""Is Guided Sales Enable"" Checkbox to Master Setup at the State Level",,Done,09/Dec/24 7:01 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Ayush Singh,63c4c18ce28ec74364cba274,Medium,Done,12/Dec/24 7:07 AM,,,,12/Dec/24 12:00 AM,,Release_0014,,63993,Guided Sales | Statewise launch
+Sub-task,IR-1093,63997,Create new API to return if guided sales is enable or not for provided state code,,Done,09/Dec/24 6:50 AM,Varun Kumar Tomar,63c4c124bfdb647eb1d94d1c,Neha Rustagi,557058:4f83ac2d-02af-482b-982e-87dddb04906d,Medium,Done,11/Dec/24 4:51 AM,,,,10/Dec/24 12:00 AM,,Release_0014,,63993,Guided Sales | Statewise launch
+Sub-task,IR-1092,63996,"State TAB (master setup) API Changes - GetById,Grid,Add,Edit",,Done,09/Dec/24 6:50 AM,Varun Kumar Tomar,63c4c124bfdb647eb1d94d1c,Neha Rustagi,557058:4f83ac2d-02af-482b-982e-87dddb04906d,Medium,Done,11/Dec/24 10:29 AM,,,,11/Dec/24 12:00 AM,,Release_0014,,63993,Guided Sales | Statewise launch
+Enhancement,IR-1090,63993,Guided Sales | Statewise launch,"The launch for the guided sales should be statewise.
+
+In case the location access is not given then we should show the guided sales functionality. 
+
+h3. Requirements:
+
+# *State-Based Configuration*: Ability to activate or deactivate the feature for certain states.
+# *Future Rollout*: After the pilot phase, we want to be able to adjust which states have access to the feature based on feedback and performance.",Done,09/Dec/24 6:30 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Medium,Done,23/Dec/24 9:32 AM,,,,16/Dec/24 12:00 AM,,Release_0014,,62680,IRIS I Guided Sales
+Enhancement,IR-1084,63981,Guided sales - Day wise message update,"The updated message for the eyecare specialist availability should be:
+
+
+
+!image-20241209-082712.png|width=330,height=343,alt=""image-20241209-082712.png""!
+
+
+
+The message and timing should be configurable",Done,09/Dec/24 3:26 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Medium,Done,20/Dec/24 5:08 AM,,,,11/Dec/24 12:00 AM,,Release_0014,,62680,IRIS I Guided Sales
+Test Bug,IR-1080,63972,Guided Sale : Agent is able to switch the store from central search bar and Find a  Store from home page and PDP page,"Agent is able to switch the store from central search bar and Find a  Store from home page and not getting the pop up to end the session when changing the store
+
+When landing on the pdp page agent is able to click on the find a store page and able to switch on different store
+
+
+
+!image-20241209-090540.png|width=597,height=316,alt=""image-20241209-090540.png""!
+
+
+
+Note – It is working fine when clicking on the store locator ",Done,07/Dec/24 9:04 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,High,Done,17/Dec/24 10:59 AM,,,,09/Dec/24 12:00 AM,,Release_0014,,62680,IRIS I Guided Sales
+Test Bug,IR-1076,63965,Guided Sale [Mobile View] : When promo is been displayed then user is not able to click on the cross button to cancel it,"As Patient logged in or Guest user when exam is been booked or when frame only or spectacle order is added to the cart then promo is been displayed then user is not able cancel that promo 
+
+
+
+!image-20241207-112516.png|width=41.666666666666664%,alt=""image-20241207-112516.png""!",Done,07/Dec/24 6:24 AM,Monika Goyal,642a87ef22330bdf97ab286a,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Low,Done,24/Dec/24 2:42 AM,,,,11/Dec/24 12:00 AM,,Release_0014,,62680,IRIS I Guided Sales
+Test Bug,IR-1075,63964,"Guided Sale : --  After connecting with agent , screen is responding slowly and getting stuck ","As a Patient or guest user after connecting with agent and when agent is not sharing the screen and user is performing action based on the agent guidance then at the patient end screen is responding very slowly and sometimes getting stuck after some time passes and in this case if agent try to share the screen then it is also not getting display to the patient’s end 
+
+Note-- At the very start after connecting with agent and patient is performing some action it is working very smoothly",DEV REVIEW,07/Dec/24 6:12 AM,Amit Kumar,712020:36744825-4fb7-42d6-8e26-fc9ae0a08869,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Highest,,26/Dec/24 10:06 AM,,,,,,Release_0013,Release_0014,62680,IRIS I Guided Sales
+Production Bug,IR-1049,63933,"Intake - For a prod patient Intake form is throwing ""Some Error Occurred"" Message","Intake - For a prod patient Intake form is throwing ""Some Error Occurred"" Message
+
+Prod Patient - 20225223
+
+!Screenshot (1824)-20241205-154055.png|width=1707,height=960,alt=""Screenshot (1824)-20241205-154055.png""!",Done,06/Dec/24 6:59 AM,Tirlochan Singh,712020:47ce8f43-63fa-4844-afd4-a56b885517d8,Rajeev Singh,712020:ccb030da-99b6-4302-b579-06d9c0bca914,Medium,Done,11/Dec/24 2:14 AM,,,,11/Dec/24 12:00 AM,,Release_0014,,63669,IRIS | Medical Form
+Story,IR-1029,63894,Fix the autofill of the appointment scheduler ,"We need to adapt Appointment Scheduler to the new order that has Book an eye exam.
+Since now the flow to schedule an appointment is:]
+
+# First we request  the type of exam
+# Second schedule the time
+# And then the date of birth of the patient",Deprecate,05/Dec/24 9:29 AM,Carlos Rocha,63cede590d930a766df0089c,Michelle Calderon,712020:0e12491d-f9bd-4c81-81f8-5bf6350e6276,Medium,Duplicate,11/Dec/24 9:46 AM,,,,,,Release_0014,,62400,IRIS I General Performance
+Story,IR-1027,63892,Closed store status not displayed correctly across all sections of the website,"There is an issue where, on days the store is closed, only the status in the working hours in the  submenu bar is updated, while the rest of the sections still appear as open. The expected behavior is for the status to be updated throughout the entire website.
+
+Current behavior: 
+
+Submenu bar “Working hours“ section: 
+
+!image-20241216-193812.png|width=1907,height=914,alt=""image-20241216-193812.png""!
+
+User selects appear as open
+
+!image-20241216-194056.png|width=1288,height=520,alt=""image-20241216-194056.png""!
+
+In the store details appear as open
+
+!image-20241216-194117.png|width=1912,height=925,alt=""image-20241216-194117.png""!
+
+ The tittle In the submenu:
+
+!image-20241216-194327.png|width=1050,height=503,alt=""image-20241216-194327.png""!",Ready For Test,05/Dec/24 9:19 AM,Carlos Rocha,63cede590d930a766df0089c,Michelle Calderon,712020:0e12491d-f9bd-4c81-81f8-5bf6350e6276,Medium,,16/Dec/24 5:21 PM,Marketing,,,06/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Enhancement,IR-1026,63891,Display menu options on hover instead of requiring a click,"We want to show in the menu the sub options available whit the only action to hover over them instead of clicking.
+
+!image-20241205-141558.png|width=1512,height=306,alt=""image-20241205-141558.png""!
+
+Verify only in  desktop devices because on mobile does not exist hover method.
+
+Verify with all the options of the navbar that has sub options.
+
+Verify on different browsers.",Ready For Test,05/Dec/24 9:14 AM,Eduardo Varela,712020:e266ad71-fd58-4f3f-ba64-e5193d1eaa1d,Michelle Calderon,712020:0e12491d-f9bd-4c81-81f8-5bf6350e6276,Medium,,20/Dec/24 9:15 AM,,,,12/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Task,IR-1025,63890,Add a hyperlink to book-eye-exam on /eye-exam/ LP,"We need to add a hyperlink to book-eye-exam on /eye-exam/ LP
+
+In this title for both [Spanish and English].
+
+!image-20241205-140940.png|width=1521,height=565,alt=""image-20241205-140940.png""!
+
+!image-20241205-141006.png|width=1507,height=567,alt=""image-20241205-141006.png""!
+
+Verify the redirects make to /book-eye-exam/.
+
+Verify the behavior on mobile and desktop.
+
+Verify on different browsers.",Tested in DEV,05/Dec/24 9:07 AM,Eduardo Varela,712020:e266ad71-fd58-4f3f-ba64-e5193d1eaa1d,Michelle Calderon,712020:0e12491d-f9bd-4c81-81f8-5bf6350e6276,Medium,,17/Dec/24 2:22 AM,,,,11/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Story,IR-1024,63889,Call center number in the sub-menu is not clickable,"We need to fix that the call center in the submenu of the page will be clickable.
+
+!image-20241205-140042.png|width=757,height=560,alt=""image-20241205-140042.png""!
+
+Make sure that when the user click on try to open an application to call.
+
+!image-20241205-140153.png|width=432,height=210,alt=""image-20241205-140153.png""!
+
+Verify that this look good and work on mobile and desktop. 
+
+Verify that this work on different browser.",Done,05/Dec/24 8:58 AM,Eduardo Varela,712020:e266ad71-fd58-4f3f-ba64-e5193d1eaa1d,Michelle Calderon,712020:0e12491d-f9bd-4c81-81f8-5bf6350e6276,Medium,Done,16/Dec/24 11:47 AM,,,,12/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Test Bug,IR-1020,63885,Appointment Scheduler : Not able to book an appointment after updating the working hours for the day which is having the additional working hour configured,"Associate user is not able to book an appointment for the patient for the day which is having already existing working hours but associate is able to view the slot but throwing an error below 
+
+
+
+!image-20241205-125910.png|width=1280,height=620,alt=""image-20241205-125910.png""!",Done,05/Dec/24 8:03 AM,Varun Kumar Tomar,63c4c124bfdb647eb1d94d1c,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,High,Done,17/Dec/24 9:23 AM,,,,11/Dec/24 12:00 AM,,Release_0014,,45438,IRIS - Setup & Configurations - Phase 2
+Sub-task,IR-1012,63877,DB changes,,Done,05/Dec/24 4:50 AM,Satya Prakash,642a8b51d774ab7297295ece,Surbhi Bhasin,63dd1f58c2b1cb6b3471a8f4,Medium,Done,16/Dec/24 2:22 AM,,,,12/Dec/24 12:00 AM,,Release_0014,,63549,Remove mappings of Master lookup brand codes 
+Sub-task,IR-1011,63876,UI changes to fetch data from MasterBrand table rather than master lookup for cycle count,,Done,05/Dec/24 4:50 AM,Namrata Maurya,642a85341993b61a5309ad8f,Surbhi Bhasin,63dd1f58c2b1cb6b3471a8f4,Medium,Done,09/Dec/24 9:33 AM,,,,09/Dec/24 12:00 AM,,Release_0014,,63549,Remove mappings of Master lookup brand codes 
+Sub-task,IR-1010,63875,Need to remove reference of master lookup for Frame brand in CycleCountStoreBrandType table,,Done,05/Dec/24 4:34 AM,Satya Prakash,642a8b51d774ab7297295ece,Surbhi Bhasin,63dd1f58c2b1cb6b3471a8f4,Medium,Done,16/Dec/24 10:35 AM,,,,16/Dec/24 12:00 AM,,Release_0014,,63549,Remove mappings of Master lookup brand codes 
+Production Bug,IR-1007,63870,IRIS -- HILCO replenishment When Requested quantity is zero it' still moving to on order,"
+
+!image-20241205-064756.png|width=1644,height=383,alt=""image-20241205-064756.png""!",Done,05/Dec/24 1:46 AM,Satya Prakash,642a8b51d774ab7297295ece,Satya Prakash,642a8b51d774ab7297295ece,Medium,Done,20/Dec/24 12:18 PM,,,,07/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Test Bug,IR-997,63850,Mobile Landscape view - Guided sale - Patient  is not able to view agent's name and video,"As a Patient and guest user when connected with agent not able to view the Agent’s name and video section 
+
+
+
+
+
+!image-20241204-150100.png|width=1600,height=720,alt=""image-20241204-150100.png""!",Done,04/Dec/24 10:02 AM,Monika Goyal,642a87ef22330bdf97ab286a,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,High,Done,24/Dec/24 2:43 AM,,,,07/Dec/24 12:00 AM,,Release_0014,,,
+Production Bug,IR-995,63847,Scheduler Setup: If non working hours are closed for one lane then while scheduling doctor shift it is considering all  lanes closed and gives error day is marked as holiday.,"If non working hours are closed for one lane then while scheduling doctor shift it is considering all  lanes closed and gives error day is marked as holiday.
+
+!image-20241204-144538.png|width=673,height=789,alt=""image-20241204-144538.png""!",Done,04/Dec/24 9:51 AM,Varun Kumar Tomar,63c4c124bfdb647eb1d94d1c,Prateek Ranjan,712020:235e328a-6dc5-4151-b96b-b6dfe5264a49,Medium,Done,17/Dec/24 10:43 AM,,,,09/Dec/24 12:00 AM,,Release_0014,,,
+Test Bug,IR-993,63844,Guided sale-Not able to process the order ,"while making payment by scanning QR code, after entering the card details it is giving the unexpected error",Deprecate,04/Dec/24 8:26 AM,Varun Kumar Tomar,63c4c124bfdb647eb1d94d1c,Megha Gore,712020:783ab445-c354-4fe1-b06f-b1b5a8cbdbd4,Highest,Not Needed,21/Dec/24 8:03 AM,,,,,,Release_0013,Release_0014,62680,IRIS I Guided Sales
+Sub-task,IR-983,63790,UI Changes,,Done,04/Dec/24 3:17 AM,Abhishek Mishra,712020:31fcea2f-d5ac-4184-ac19-998a8363c22b,Ayush Singh,63c4c18ce28ec74364cba274,Medium,Done,20/Dec/24 1:59 AM,,,,16/Dec/24 12:00 AM,,Release_0014,,59327,Order I Lens Selection UI
+Sub-task,IR-976,63776,Manual access to the URL of doctor consultation should be restricted if the patient does not have it enabled,"If the patient types manually the URL of doctor consultation:
+
+# The patient  is logged and has dr consultation enable → Allow to go to the pages [ */my-account/ask-a-doctor/* or */my-account/ask-a-doctor/notes/* ].
+# The patient is not logged → return to the homepage. 
+# The patient  is logged and does not have  dr consultation enable → return to my account [/my-account/].",Done,03/Dec/24 1:34 PM,Carlos Rocha,63cede590d930a766df0089c,Michelle Calderon,712020:0e12491d-f9bd-4c81-81f8-5bf6350e6276,Medium,Done,16/Dec/24 3:52 PM,IRIS-DoctorConsultation,,,12/Dec/24 12:00 AM,,Release_0014,,62703,Dr Consultation - Implement logic to turn it Off/On the service and make the connection with the patient
+Test Bug,IR-971,63769,Mobile / Tablet (Portrait) - Guided Sale : Few cases with the camera are not working after connecting with the Agent,"Guided Sale : User's Camera is getting zoom when connected with Agent in Mobile view 
+
+
+
+!image-20241203-141238.png|width=720,height=1600,alt=""image-20241203-141238.png""!
+
+# When connect with agent through the mobile or when tablet portrait mode then in the agent’s side Patient’s or user’s name is getting displayed along in the camera section and in the bottom of the agents' camera a blue color line is getting displayed when user’s camera is ON
+
+!image-20241207-113010.png|width=1045,height=565,alt=""image-20241207-113010.png""!",Done,03/Dec/24 9:15 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Medium,Done,17/Dec/24 11:06 AM,Release_0013,,,05/Dec/24 12:00 AM,,Release_0014,,62680,IRIS I Guided Sales
+Production Bug,IR-964,63756,Mount location doesn't get updated when SP order is forced transferred to DC1 which doesn't have stock of frame,"When a Spectacle order is transferred forcefully to DC1 from an outside DC and Dc1 doesn’t have stock of the frame , then after transfer the mount location doesn’t get updated .",Done,03/Dec/24 6:09 AM,Dilpreet Singh,712020:3c5d9573-527e-47a6-a9a4-d62d172400cf,Nimmi Joseph,712020:c3e5eacc-61f8-40ad-a028-b35e4fec2257,Medium,Done,24/Dec/24 10:14 AM,Release_0014,,,05/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Story,IR-959,63750,Performance Issue - Sales Order Function - Stage Environment,"Hi Team,
+
+We observed slowness in Sales Order Function During the performance run for order Module
+Due to the Sales Order Function slowness, It impact the Order Process., And performance degraded for Submit Order By Store User.
+
+Submit Order By Store user now taking 7.9 Sec where as baseline number is - 3.3 Sec 
+
+Sales Order FUnction - 4.39 Sec 
+
+
+!image-20241203-085923.png|width=75%,alt=""image-20241203-085923.png""!
+
+
+
+!image-20241203-090620.png|width=83.33333333333334%,alt=""image-20241203-090620.png""!
+
+CC : [~accountid:6322f87404903f8118c3b16b] ",Ready For Test,03/Dec/24 4:11 AM,Surbhi Bhasin,63dd1f58c2b1cb6b3471a8f4,Sumit Satpathy,712020:8afa0891-52cc-42db-9dfa-04ae5362ae38,Medium,,18/Dec/24 5:03 AM,,,,17/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Production Bug,IR-931,63720,SEO 301 Redirect for Closed Store (S Cooper Arlington) to Nearest Active Location,"Store 7002 (S Cooper Arlington) has been permanently closed, and its URL needs a 301 redirect to the nearest active store (North Arlington, TX). This ensures that SEO efforts and user traffic are appropriately passed to the nearby store.",Done,02/Dec/24 4:30 PM,Sanjib Kumar Majhi,63c4c1e1d7f68827e6b549b0,Caro Rocha,61707a5d860f78006bc9dc50,Medium,Done,23/Dec/24 10:14 AM,,,,16/Dec/24 12:00 AM,,Release_0014,,62721,IRIS | SEO/ PPC
+Production Bug,IR-929,63718,Filters in URL Not Persisting Across Tabs,"The Product Catalog's filter functionality updates the URL to include the selected filters, which is a desired behavior. However, when the filtered URL is shared (e.g., copied and pasted into another browser tab), the filters do not apply, and the page defaults to showing all SKUs. This issue impacts use cases such as email campaigns, where URLs with pre-applied filters (e.g., for specific brands) are required to work as expected.",Done,02/Dec/24 4:23 PM,Amit Soni,63f6912ee76fc61320f5a3d5,Caro Rocha,61707a5d860f78006bc9dc50,Medium,Done,23/Dec/24 10:14 AM,,,,10/Dec/24 12:00 AM,,Release_0014,,62721,IRIS | SEO/ PPC
+Production Bug,IR-926,63715,"Updating Sitemaps for Blogs, Categories & Pages","This document outlines the steps required to update the sitemap for blogs, categories, and pages across all environments. It ensures that the sitemap script reads the latest files from the specified bucket and generates updated sitemaps automatically.",Ready For Test,02/Dec/24 4:14 PM,Amit Soni,63f6912ee76fc61320f5a3d5,Caro Rocha,61707a5d860f78006bc9dc50,Medium,,26/Dec/24 10:09 AM,,,,10/Dec/24 12:00 AM,,Release_0014,,62721,IRIS | SEO/ PPC
+Task,IR-919,63705,Add a new special store to five9 connector,"Add to the Five9 connector for this new store. 
+
+This is a Special Store configuration.
+
+Code: 9311
+
+Store_Name: Jonesboro",Done,02/Dec/24 10:57 AM,Eduardo Varela,712020:e266ad71-fd58-4f3f-ba64-e5193d1eaa1d,Michelle Calderon,712020:0e12491d-f9bd-4c81-81f8-5bf6350e6276,High,Done,05/Dec/24 12:32 PM,,,,04/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Enhancement,IR-909,63690,Implement New Field for Unique Customer ID in Signup Form for Emarsys Integration,"*Description:*
+
+The Emarsys team has requested a new field to be added to the signup form to improve the tracking of new customer registrations and avoid duplicate contact entries. The new field will generate a unique customer ID for each individual who signs up through the form.
+
+Currently, the signup data is sent to the endpoint {{/patient/SignUpWithEmailAndPhoneNumber/{0}/{1}?phoneNumber={2}}}. We need to implement the logic for generating and transmitting a unique customer ID as part of this signup process.
+
+*Backend ID Generation and Direct Transmission to Emarsys:*
+
+# The unique ID can be generated on the backend when the signup request is received.
+# The generated ID will then be transmitted directly to the Emarsys system as part of the signup data.
+
+h3. ",Ready For Test,02/Dec/24 6:05 AM,Varun Kumar Tomar,63c4c124bfdb647eb1d94d1c,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,High,,12/Dec/24 7:19 AM,,,,12/Dec/24 12:00 AM,,Release_0014,,63849,IRIS I Emarsys
+Story,IR-879,63650, High CPU Query -Ordergroup,"we find out high-cost query using Datavail query 
+
+
+
+Query [^879_query.sql] ",Deprecate,29/Nov/24 3:02 AM,Adarsh Yadav,712020:f42cb547-2911-45dd-8430-edc80e91a606,Adarsh Yadav,712020:f42cb547-2911-45dd-8430-edc80e91a606,Medium,Duplicate,12/Dec/24 6:22 AM,DBmaintenance,HighCPUMemory,,,,Release_0014,,62400,IRIS I General Performance
+Story,IR-794,63549,Remove mappings of Master lookup brand codes ,"Ensure that brand codes are maintained in a single location by replacing the usage of {{Masterlookup}} table mappings with {{MasterProductBrand}} table mappings, and subsequently removing the redundant entries from {{Masterlookup}}.
+
+h3. *Details:*
+
+# *Analysis Phase:*
+#* Identify all references to brand codes in the {{Masterlookup}} table across the system.
+#* Document all mappings and associated business logic dependent on {{Masterlookup}}.
+# *Replacement Phase:*
+#* Update existing logic and mappings to refer to the {{MasterProductBrand}} table instead of {{Masterlookup}}.
+#* Ensure all affected services, modules, and reports are updated to align with the new structure.
+# *Validation Phase:*
+#* Cross-verify data between {{Masterlookup}} and {{MasterProductBrand}} to ensure consistency.
+#* Perform regression testing to confirm functionality is not impacted after changes.
+# *Cleanup Phase:*
+#* Remove redundant entries from the {{Masterlookup}} table once the migration is successfully completed and verified.",Ready For Test,27/Nov/24 5:53 AM,Surbhi Bhasin,63dd1f58c2b1cb6b3471a8f4,Surbhi Bhasin,63dd1f58c2b1cb6b3471a8f4,Medium,,17/Dec/24 10:48 AM,,,,16/Dec/24 12:00 AM,,Release_0014,,62401,IRIS I D365
+Story,IR-792,63546,Replica -High CPU Query - OrderStatusTracking,"We find out high CPU usage query using Datavail query.
+
+
+
+!image-20241127-100240.png|width=1374,height=126,alt=""image-20241127-100240.png""!
+
+
+
+[^IR792_query.txt]
+
+",Ready For Test,27/Nov/24 4:28 AM,Adarsh Yadav,712020:f42cb547-2911-45dd-8430-edc80e91a606,Adarsh Yadav,712020:f42cb547-2911-45dd-8430-edc80e91a606,Highest,,26/Dec/24 1:54 AM,DBmaintenance,HighCPUMemory,,27/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Story,IR-789,63543,High CPU Query - Net Sales,"we find out high-cost query using Datavail query 
+
+[^IR789.txt]
+
+",Ready For Test,27/Nov/24 3:57 AM,Masood Bhat,642a852396822e1821fe3371,Adarsh Yadav,712020:f42cb547-2911-45dd-8430-edc80e91a606,Highest,,18/Dec/24 9:13 AM,DBmaintenance,HighCPUMemory,,03/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Story,IR-786,63534,Add Prefix 'F' to License Plate Number in XML for Frame Shipments from Different DCs,"*As a* backend developer,
+*I want* to add a prefix 'F' to the license plate number in the XML file for frame shipments,
+*So that* for orders where the lens and frame are coming from two different Distribution Centers (DCs), the XML file will reflect the correct format with the 'F' prefix.
+
+
+
+h3. *Acceptance Criteria:*
+
+# *Prefix Addition:*
+#* The system should add the prefix 'F' to the license plate number in the XML file.
+#* The prefix should only be added for frame shipments where *lens and frame are coming from two different DCs*.
+# *XML Structure:*
+#* The XML file should correctly reflect the updated license plate number, with the 'F' prefix for the relevant frame shipments.
+#* All other shipments should remain unaffected, and the license plate number should remain unchanged.",Done,26/Nov/24 10:22 PM,Tirlochan Singh,712020:47ce8f43-63fa-4844-afd4-a56b885517d8,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Medium,Done,20/Dec/24 12:16 PM,,,,03/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Sub-task,IR-776,63522,Backend API Changes to include refunds and insurance payments as well in CC Report,,Done,26/Nov/24 8:00 AM,Varun Kumar Tomar,63c4c124bfdb647eb1d94d1c,Neha Rustagi,557058:4f83ac2d-02af-482b-982e-87dddb04906d,Medium,Done,03/Dec/24 10:34 AM,,,,03/Dec/24 12:00 AM,,Release_0014,,63474,Operations I Show the total in CC report including the Insurance and Refund
+Production Bug,IR-770,63498,Receipt Not Displaying Pending Balance for Patient Order,"Store 7081 processed an order for *Patient ID 8457240* with a total cost of *$140.99*. The store collected *$111.22*, leaving a pending balance of *$38.77*. However, the receipt does not reflect the pending balance, creating confusion for both the patient and the store.
+
+
+
+!image-20241125-171133.png|width=867,height=638,alt=""image-20241125-171133.png""!",In Progress,25/Nov/24 12:10 PM,Satyabrat Nayak,712020:299d6597-3c4c-4cf9-9dc8-020d3bd37c3d,Caro Rocha,61707a5d860f78006bc9dc50,High,,19/Dec/24 1:58 AM,,,,10/Dec/24 12:00 AM,,Release_0014,,62409,IRIS | Patient File
+Production Bug,IR-757,63483,Prism Values Changing During Order Remake Process,"Store staff are attempting to remake patient glasses to the RX prescribed by the doctor. The prescription specifies prism ""3 out"" for both eyes, but the system is automatically changing the values to ""3 in."" Despite assistance from Store Support and attempts to manually input ""3 in"" to see if it resolves the issue, the system does not correctly apply the prism as ""3 out.""
+
+The affected patient ID is *20023188*, and the impacted orders are:
+
+* *Order 135201255.3* (distance lenses)
+* *Order 135201254.3* (reading lenses)
+
+The correct prescription (dated 10/16/2024) is:
+
+* *O.D.*: +3.75 -0.75 × 111, prism 3 out
+* *O.S.*: +5.50 -0.75 × 98, prism 3 out
+* *ADD*: +2.00",Done,25/Nov/24 9:11 AM,Harshil Gohel,642a83c66d24942109ff2a3b,Caro Rocha,61707a5d860f78006bc9dc50,Medium,Done,20/Dec/24 10:25 AM,,,,06/Dec/24 12:00 AM,,Release_0014,,62405,IRIS I Order
+Story,IR-748,63474,Operations I Show the total in CC report including the Insurance and Refund,"The CC report should contains the total line item similar to Zeus,
+Zeus screenshot for reference:
+
+
+
+!image-20241003-122200.png|width=1153,height=378,alt=""image-20241003-122200.png""!
+
+
+
+!image-20241003-122206.png|width=1145,height=539,alt=""image-20241003-122206.png""!
+
+*As a* user,
+*I want* the CC report to include refunds and insurance payments
+*so that* I can have a comprehensive summary of all line items for accurate analysis and reporting.
+
+*Acceptance Criteria:*
+
+
+
+#  The report will also include transactions related to refunds and insurance payments.",Done,25/Nov/24 6:56 AM,Varun Kumar Tomar,63c4c124bfdb647eb1d94d1c,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Medium,Done,18/Dec/24 7:56 AM,Level-01,,,03/Dec/24 12:00 AM,,Release_0014,,62399,IRIS I Production / Order Status
+Enhancement,IR-739,63456,Refer a Friend - Replace the card in our website for English and Spanish version (Downloadable PDF),"Replace the card in our page */special-offers/refer-a-friend/* for English and Spanish version (Downloadable PDF). Make sure downloadable PDF version is as per respective language.
+
+English Card: 
+
+[^146_Retail_Refer A Friend_24_SUNGLASSES_ENG_WEB.pdf]
+
+Spanish Card:
+
+[^146_Retail_Refer A Friend_24_SUNGLASSES_SPA_WEB.pdf]
+
+Acceptance Criteria
+
+# Make sure if the user refer a friend, all his data is saved correctly.
+# Verify that the user is able to download the pdf and the data enter is the correct one.
+# If the user change the language downloadable PDF version is as per respective language.",Ready For Test,22/Nov/24 1:43 PM,Xochilt Arroliga,6070beb3edc14f0076c30a49,Michelle Calderon,712020:0e12491d-f9bd-4c81-81f8-5bf6350e6276,High,,17/Dec/24 7:23 AM,,,,13/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Sub-task,IR-721,63406,"Frontend - Dynamically change patient/guest joining form message for Cart, CL and Eye Health Page","# Contact Lens category and product page
+
+!Screenshot 2024-11-21 at 8.07.44 PM.png|width=255,height=290,alt=""Screenshot 2024-11-21 at 8.07.44 PM.png""!
+
+# Eye health catagory product page
+
+!Screenshot 2024-11-21 at 8.37.55 PM.png|width=297,height=362,alt=""Screenshot 2024-11-21 at 8.37.55 PM.png""!
+
+
+
+# Cart Page
+
+!Screenshot 2024-11-21 at 8.38.13 PM.png|width=41.66666666666667%,alt=""Screenshot 2024-11-21 at 8.38.13 PM.png""!
+
+# Other pages
+!Screenshot 2024-11-21 at 8.07.44 PM (5709c385-7c32-4033-8f15-3c36da99496a).png|width=255,height=290,alt=""Screenshot 2024-11-21 at 8.07.44 PM.png""!",Done,21/Nov/24 10:28 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Medium,Done,26/Nov/24 2:25 AM,,,,22/Nov/24 12:00 AM,,Release_0014,,59978,Guided Sales : One Tab Experience
+Production Bug,IR-711,63375,Ecommerce Events Not Being Recorded Properly in GA4 Post-IRIS Launch,"After the launch of the IRIS website, several Ecommerce events in Google Analytics 4 (GA4) are not being recorded as expected. These issues started occurring on *September 26, 2024*, and were functioning correctly prior to this date. The discrepancies include missing values, transaction IDs, and inconsistent category tagging. Below is a breakdown of the issues:
+
+----
+
+h4. Issues Identified:
+
+# *Items Added to Cart – Value Missing:*
+#* *Date Range (Sep 26 - Nov 13, 2024):* The value of items added to the cart is not being recorded in GA4.
+#** Screenshot: [Link|https://prnt.sc/jZ8YASOReRHk]
+#* *Date Range (Aug 01 - Sep 25, 2024):* Value recorded correctly.
+#** Screenshot: [Link|https://prnt.sc/xVpMwdzyAcsL]
+# *Transaction ID Not Recorded:*
+#* *Date Range (Sep 26 - Nov 13, 2024):* Transaction ID is not being captured.
+#** Screenshot: [Link|https://prnt.sc/PMLA-oTEzLNU]
+#* *Date Range (Aug 01 - Sep 25, 2024):* Transaction ID recorded successfully.
+#** Screenshot: [Link|https://prnt.sc/iYE5psKdI5e3]
+# *Category Naming Conventions and Missing Categories:*
+#* *Current State (Sep 26 - Nov 13, 2024):* Categories such as 'Contact Lens' have changed naming conventions, and other categories (e.g., 'Men', 'Women', 'Kids') are missing.
+#** Screenshot: [Link|https://prnt.sc/ANo-r8t0I_pP]
+#* *Previous State (Aug 01 - Sep 25, 2024):* Categories recorded correctly.
+#** Screenshot: [Link|https://prnt.sc/Xz-5YfSlypBT]",Ready For Test,20/Nov/24 4:15 PM,Amit Soni,63f6912ee76fc61320f5a3d5,Caro Rocha,61707a5d860f78006bc9dc50,High,,26/Dec/24 10:09 AM,,,,11/Dec/24 12:00 AM,,Release_0014,,62238,IRIS I Home / Landing Pages/ Store Details
+Story,IR-560,63190,Remove My Eyelab from Now Optics Website,"We want to remove all My Eyelab content from Now Optics website.
+
+1 Remove it from the Navbar
+
+!image-20241202-184046.png|width=1888,height=990,alt=""image-20241202-184046.png""!
+
+# Remove it from the footer
+
+!image-20241202-184152.png|width=1905,height=975,alt=""image-20241202-184152.png""!
+
+# Change Our Brands -> Our Brand 
+
+3.1 In the Navbar
+
+3.2 In the footer
+
+3.3  Change the URL to our-brand and also the title window
+
+!image-20241202-184522.png|width=1821,height=1034,alt=""image-20241202-184522.png""!
+
+#  if the user enter manually the URL to My Eyelab [https://www.nowoptics.com/our-brands/my-eyelab|https://www.nowoptics.com/our-brands/my-eyelab]  this has to show 404 page
+# The new message in our brand LP page will be:  
+“Now Optics is the parent company of Stanton Optical. Over the past decade, has provided extraordinary service and selection for a fast, efficient, affordable eye care experience. Now Optics utilizes next-level technology that WOWs both patients and the optical industry!” 
+#  Banner of My Eyelab in Our Brand LP should be removed 
+
+!image-20241202-210418.png|width=2535,height=607,alt=""image-20241202-210418.png""!
+
+
+
+ ",Done,18/Nov/24 2:40 PM,Eduardo Varela,712020:e266ad71-fd58-4f3f-ba64-e5193d1eaa1d,Michelle Calderon,712020:0e12491d-f9bd-4c81-81f8-5bf6350e6276,Medium,Done,13/Dec/24 8:47 AM,nowoptics,,,03/Dec/24 12:00 AM,,Release_0014,,63189,Now Optics Website
+Production Bug,IR-551,63167,Duplicate Transfers Allowed for Now Job Orders,"Orders 135683089 (Store 0067) and 135675051 (Store 105) were initially transferred to DC1 for completion. Despite this, the system allowed the stores to initiate a second transfer for each order. This redundancy could lead to workflow confusion, processing inefficiencies, and potential delays in order completion. Attached order history demonstrates the duplicate transfer entries after the orders were already in DC1’s queue.
+
+
+
+!image-20241114-215850.png|width=50%,alt=""image-20241114-215850.png""!
+
+!image-20241114-215914.png|width=756,height=434,alt=""image-20241114-215914.png""!",Done,14/Nov/24 4:57 PM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Caro Rocha,61707a5d860f78006bc9dc50,Medium,Done,19/Dec/24 10:47 AM,,,,10/Dec/24 12:00 AM,,Release_0014,,62405,IRIS I Order
+Story,IR-545,63156,Create an unique ID - Emarsys Popup,"We need to create an unique ID to avoid duplication in the database.
+
+
+
+Acceptance criteria
+
+* Verify with the dev tools if the id of the customer is not being duplicate if  he first register with the popup and then make a purchase online.",Deprecate,13/Nov/24 9:04 AM,Carlos Rocha,63cede590d930a766df0089c,Michelle Calderon,712020:0e12491d-f9bd-4c81-81f8-5bf6350e6276,High,Not Needed,13/Dec/24 9:42 AM,,,,20/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Test,IR-408,63082,Test Case to verify the Zeus orders for which the RXi is failing and Jobsheets are missing.,Test Case to verify the Zeus orders for which the RXi is failing and Jobsheets are missing.,To Do,08/Nov/24 8:00 AM,Nimmi Joseph,712020:c3e5eacc-61f8-40ad-a028-b35e4fec2257,Nimmi Joseph,712020:c3e5eacc-61f8-40ad-a028-b35e4fec2257,Medium,,10/Dec/24 4:45 AM,Release_0012,,,,,Release_0014,,62399,IRIS I Production / Order Status
+Production Bug,IR-381,63020,Multiple assignment happens when the Transfer button is clicked several times for a single transfer,"When a transfer is done from the Job Tracking → Job Transfer and in the Transfer pop up , the Transfer button is clicked multiple times, then transfer takes place multiple times , instead of just once .Screen shot of status attached below
+
+
+
+!image-20241106-135620.png|width=846,height=592,alt=""image-20241106-135620.png""!",Done,06/Nov/24 8:54 AM,Namrata Maurya,642a85341993b61a5309ad8f,Nimmi Joseph,712020:c3e5eacc-61f8-40ad-a028-b35e4fec2257,Highest,Done,20/Dec/24 12:19 PM,,,,05/Dec/24 12:00 AM,,Release_0014,,62399,IRIS I Production / Order Status
+Sub-task,IR-377,63011,Backend - Agent view changes in lens selection wizard section. ,,Done,06/Nov/24 6:23 AM,Masood Bhat,642a852396822e1821fe3371,Abhishek Mishra,712020:31fcea2f-d5ac-4184-ac19-998a8363c22b,Medium,Done,08/Nov/24 10:30 AM,,,,08/Nov/24 12:00 AM,,Release_0014,,59978,Guided Sales : One Tab Experience
+Test,IR-372,63004,TP/T-Implement 100% Payment Collection for Specified Categories,"*As a* system administrator,
+*I want to* enforce 100% payment collection for specific categories (Exam Only, OTC (Store Stock) Only, LC Only, and Insurance),
+*so that* the payment process aligns with the defined financial policies.
+
+----
+
+h4. Acceptance Criteria:
+
+# *Category-Specific Payment Collection:*
+#* When an order includes any of the following categories:
+#** Exam Only
+#** OTC (Store Stock) Only
+#** LC Only
+#** Insurance
+#* The system must enforce 100% payment collection at checkout.
+# *Combined Category Payment Collection:*
+#* When an order combines any of the specified categories (e.g., OTC + Exam):
+#** The system must enforce 100% payment collection for the combined categories.
+# *Mixed Category Payment Collection:*
+#* When an order includes one or more of the specified categories and other categories (e.g., Spectacle):
+#** The payment collection for the order should be based on the payment limit defined for the other categories.
+#** The system should ensure that the overall payment collection policy for the order group is adhered to according to the defined payment limits.",In Progress,06/Nov/24 3:55 AM,Prateek Ranjan,712020:235e328a-6dc5-4151-b96b-b6dfe5264a49,Prateek Ranjan,712020:235e328a-6dc5-4151-b96b-b6dfe5264a49,Medium,,10/Dec/24 4:45 AM,,,,,,Release_0014,,62403,IRIS I Cart/ Checkout
+Sub-task,IR-342,62956,Add refresh icon on occ table,"*Add a Refresh Icon in OCC*
+
+* When the user clicks the *Refresh* icon:
+** *Reset all filters*, including:
+*** *Table filters*
+*** *Filters at the top*
+** *Reset sorting*
+** *Reset pagination*
+** *Reset Net Sale*",Done,05/Nov/24 2:24 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Medium,Done,03/Dec/24 9:28 AM,,,,05/Nov/24 12:00 AM,,Release_0014,,62743,Add Refresh Functionality to Table Grid on Remaining Pages
+Enhancement,IR-336,62951,Order Status: Store traces pending status should be Pending Store Trace,"The order status should be Pending Store Trace when the order is assigned as Frame to Trace and Mount and trace is still pending for RXI to send.
+
+Note: Once trace is uploaded RXI will send and order status will update to DC Assign
+
+
+
+*As a* user (or system),
+*I want* the order status to be set to ""Pending Store Trace"" when the order is assigned as ""Frame to Trace"" and the trace is still pending for RXI to send,
+*so that* the order accurately reflects its status in the system until the trace is uploaded and RXI sends the order.
+
+
+
+The status should change from the ‘Order Processed’ to ""Pending Store Trace"" to 'DC assigned'.",Done,04/Nov/24 9:35 PM,Varun Kumar Tomar,63c4c124bfdb647eb1d94d1c,Kaydi Gulick,557058:16eb11f4-8e61-44b7-b17d-3a7f6c12df1c,Medium,Done,24/Dec/24 10:23 AM,,,,05/Dec/24 12:00 AM,,Release_0014,,62399,IRIS I Production / Order Status
+Task,IR-328,62943,Dr Consultation - Day marked as closed,"Modify the message when the doctor mark the day as “Closed“ (No service)
+
+* For example, Sunday: Closed.
+
+Message should say: 
+
+English: Ask an Eye Doctor is unavailable today.
+
+Spanish: Pregunta a un Optometrista no está disponible hoy.
+
+*Acceptance Criteria:*
+
+* Make sure to use the fonts we use in IRIS for this.
+* The functionality must work as requested.
+* Verify that the others scenarios work correctly
+** out of business hours
+** within Business hours
+
+*Expected results:*
+
+English:
+
+!image-20240808-174151.png|width=2349,height=1125,alt=""image-20240808-174151.png""!
+
+Spanish:
+
+!image-20240808-174310.png|width=2205,height=1032,alt=""image-20240808-174310.png""!",Done,04/Nov/24 12:58 PM,Sanjib Kumar Majhi,63c4c1e1d7f68827e6b549b0,Michelle Calderon,712020:0e12491d-f9bd-4c81-81f8-5bf6350e6276,Medium,Done,17/Dec/24 7:22 AM,IRIS-DoctorConsultation,v.3,,13/Dec/24 12:00 AM,,Release_0014,,62412,IRIS | Doctor Consultation
+Test,IR-315,62926,TP/T - Guided sale test plan ,,Testing,04/Nov/24 3:59 AM,Megha Gore,712020:783ab445-c354-4fe1-b06f-b1b5a8cbdbd4,Megha Gore,712020:783ab445-c354-4fe1-b06f-b1b5a8cbdbd4,High,,13/Dec/24 10:09 AM,,,,,,Release_0014,,62400,IRIS I General Performance
+Test,IR-314,62925,TP/T - Franchise Cost Band Validation,,Done,04/Nov/24 3:31 AM,Minakshi Singh,712020:691864c0-08be-484a-a79c-15d7fd1d3a1a,Minakshi Singh,712020:691864c0-08be-484a-a79c-15d7fd1d3a1a,Medium,Done,20/Dec/24 9:08 AM,Release_0013,,,,,Release_0014,,62400,IRIS I General Performance
+Sub-task,IR-311,62917,reflect same changes in patient module,,Done,04/Nov/24 2:07 AM,Abhishek Mishra,712020:31fcea2f-d5ac-4184-ac19-998a8363c22b,Abhishek Mishra,712020:31fcea2f-d5ac-4184-ac19-998a8363c22b,Medium,Done,04/Dec/24 2:12 AM,,,,02/Dec/24 12:00 AM,,Release_0014,,62743,Add Refresh Functionality to Table Grid on Remaining Pages
+Story,IR-300,62904,Cart Merge on Account Sign-In,"*As a* registered user,
+*I want* to be prompted to merge my cart with a guest user's cart when I sign into my account,
+*so that* I can easily consolidate my items and proceed to cart",Done,01/Nov/24 6:35 AM,Monika Goyal,642a87ef22330bdf97ab286a,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Medium,Done,20/Dec/24 9:39 AM,,,,03/Dec/24 12:00 AM,,Release_0014,,62403,IRIS I Cart/ Checkout
+Sub-task,IR-287,62840,Backend Changes ,,Done,29/Oct/24 6:51 AM,Varun Kumar Tomar,63c4c124bfdb647eb1d94d1c,Ayush Singh,63c4c18ce28ec74364cba274,Medium,Done,09/Dec/24 3:58 AM,,,,10/Dec/24 12:00 AM,,Release_0014,,62047,IRIS | Scheduler: calendar view to know which days onsite doctor is available
+Story,IR-284,62831,Dr Consultation - Doctor Notes need to be separated in different lines (MRS DEPENDENCIES),"If single note then no numbering. If multiple notes from doctor, I.e. 1. 2. 3 should enter below like:
+1.
+
+2.
+
+3.
+
+And IRIS will expand box to show full text/ wrapped
+
+!image-20241028-234804.png|width=83.33333333333334%,alt=""image-20241028-234804.png""!
+
+!image-20240904-195927.png|width=1415,height=651,alt=""image-20240904-195927.png""!",Ready For Test,28/Oct/24 7:43 PM,Sanjib Kumar Majhi,63c4c1e1d7f68827e6b549b0,Michelle Calderon,712020:0e12491d-f9bd-4c81-81f8-5bf6350e6276,Medium,,17/Dec/24 10:00 AM,IRIS-DoctorConsultation,v.2,,10/Dec/24 12:00 AM,,Release_0014,,62412,IRIS | Doctor Consultation
+Enhancement,IR-280,62778,Track and Retarget Customers Who Abandon Product Pages Without Adding to Cart,"To improve conversion rates, we need to implement tracking for customers who *view a product page* but do not add the item to their cart. This tracking will allow us to identify *product page abandonments* and retarget those customers with *reminder communications*, encouraging them to complete their purchase by adding the product to their cart.",DEPLOYED TO UAT,28/Oct/24 12:21 PM,Carlos Rocha,63cede590d930a766df0089c,Caro Rocha,61707a5d860f78006bc9dc50,Medium,,19/Dec/24 1:13 PM,,,,17/Dec/24 12:00 AM,,Release_0014,,62238,IRIS I Home / Landing Pages/ Store Details
+Sub-task,IR-273,62771,BE changes to add contact lens and eye health product as favourite,,Done,28/Oct/24 11:03 AM,Dharmik Ginoya,712020:069ef254-4266-4cb4-b69f-1cd04365bede,Abhishek Mishra,712020:31fcea2f-d5ac-4184-ac19-998a8363c22b,Medium,Done,12/Dec/24 1:54 AM,,,,10/Dec/24 12:00 AM,,Release_0014,,59427,My Account: Favorites[Patient Login] : Favorites should be added to category pages for Eye Health and Contacts
+Production Bug,IR-272,62769,Loyalty Club : Rows are not updating correctly when loyalty club is redeemed.,"Rows are not updating correctly when loyalty club is redeemed. New rows are not getting added when redeemed and ‘Refer a Friend’ shows available even after it is redeemed.
+
+!Record_2024_10_26_18_54_33_270.mp4|width=1360,height=680,alt=""Record_2024_10_26_18_54_33_270.mp4""!
+
+!Record_2024_10_28_15_34_31_237.mp4|width=1360,height=680,alt=""Record_2024_10_28_15_34_31_237.mp4""!",Done,28/Oct/24 10:55 AM,Dharmik Ginoya,712020:069ef254-4266-4cb4-b69f-1cd04365bede,Prateek Ranjan,712020:235e328a-6dc5-4151-b96b-b6dfe5264a49,Medium,Done,19/Dec/24 10:46 AM,,,,04/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Story,IR-234,62743,Add Refresh Functionality to Table Grid on Remaining Pages,"*As a* user of the application,
+*I want* to be able to refresh the data displayed in the table grid on all remaining pages,
+*so that* I can view the most up-to-date information without having to navigate away or reload the entire page.
+
+
+
+[https://nowoptics-my.sharepoint.com/:x:/p/smajhi/EUd5J1x3AZFBkaowe_TSsCwBmOGm6bBrNAQKlk31nCdqdg?e=ccHovR|https://nowoptics-my.sharepoint.com/:x:/p/smajhi/EUd5J1x3AZFBkaowe_TSsCwBmOGm6bBrNAQKlk31nCdqdg?e=ccHovR|smart-link] ",Done,28/Oct/24 4:43 AM,Subesh Singh,712020:812ecddd-8e45-4a4e-bd41-6931c90f237b,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Medium,Done,17/Dec/24 9:28 AM,,,,16/Dec/24 12:00 AM,,Release_0014,,62387,IRIS I Setup
+Production Bug,IR-226,62725,VTO (Associate User) : After clicking on the Buy Now then should land on the PDP,"As an Associate login when click on the Buy Now then it should land on the PDP page , currently landing on the below page 
+
+
+
+!image-20241025-160517.png|width=1280,height=583,alt=""image-20241025-160517.png""!",Done,25/Oct/24 12:39 PM,Amit Soni,63f6912ee76fc61320f5a3d5,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Low,Done,23/Dec/24 10:15 AM,,,,04/Dec/24 12:00 AM,,Release_0014,,62239,IRIS | Virtual Try On (VTO)
+Story,IR-216,62703,Dr Consultation - Implement logic to turn it Off/On the service and make the connection with the patient,"We need to implement a logic to create a way to turn it off/on doctor consultation from the master setup.
+
+*Specifications*
+
+* Option has to be available just for the admin.
+* Option has to be editable from the master set up.
+
+*Acceptance criteria:*
+
+# Verify as a patient that already has a prescription in house if the system allows to make a consultation.
+# Verify as an Admin if the system reflects to you in the master setup (State part) the option to Off/On the consultation.
+## Turn it On and try to make a consultation as patient, perform the consultation and add some note to verify all the flow.
+## Turn it Off and login as patient and verify that the option is not being visible.
+## Turn it Off/On in different states to verify the behavior.
+# Verify if the prescription is valid and the state where it was made is doctor consultation On → The connection with the patient is made, otherwise it is not",Done,24/Oct/24 1:34 PM,Carlos Rocha,63cede590d930a766df0089c,Michelle Calderon,712020:0e12491d-f9bd-4c81-81f8-5bf6350e6276,Highest,Done,13/Dec/24 3:31 AM,IRIS-DoctorConsultation,,,27/Nov/24 12:00 AM,,Release_0014,,62412,IRIS | Doctor Consultation
+Sub-task,IR-243,62635,Frontend - Add minimize and maximize option for video panel  ,,Done,23/Oct/24 8:31 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Medium,Done,28/Oct/24 9:04 AM,,,,23/Oct/24 12:00 AM,,Release_0014,,59978,Guided Sales : One Tab Experience
+Production Bug,IR-188,62617,Error Message on Dispensing Order,"For *ID 7697794*, the order was paid in full through *Zeus* and is now marked as *Notified pt* in *IRIS*. However, when attempting to dispense the order, the system is displaying the following error message: *""Order cannot be dispensed as the balance is due.""* This is causing confusion, as the patient has already paid in full, and the system should allow the order to be dispensed without any further issues.
+
+
+
+!image-20241022-222431.png|width=1175,height=575,alt=""image-20241022-222431.png""!
+
+
+
+!image-20241022-222411.png|width=1190,height=586,alt=""image-20241022-222411.png""!",In Progress,22/Oct/24 6:22 PM,Satyabrat Nayak,712020:299d6597-3c4c-4cf9-9dc8-020d3bd37c3d,Caro Rocha,61707a5d860f78006bc9dc50,Medium,,26/Dec/24 1:18 AM,,,,16/Dec/24 12:00 AM,,Release_0014,,62399,IRIS I Production / Order Status
+Production Bug,IR-223,62565,Orders Created on Franchise Store are NOT considering Franchise Band Costs for every Component.,"*Steps to Reproduce it-*
+1. Login to IRIS and switch to Franchise Store.
+2. Create an Order 125046631[DC Complete].
+3. Validate the Cost should be picked from Franchise Cost Band.
+
+*ACTUAL RESULT-*
+*Cost for each component is picked from Assigned DC. [INCORRECT]* (x)
+
+!image-20241022-123545.png|width=1282,height=682,alt=""image-20241022-123545.png""!
+
+*EXPECTED -* the Cost should be picked from Franchise Cost Band.",Done,22/Oct/24 8:41 AM,Harshil Gohel,642a83c66d24942109ff2a3b,Minakshi Singh,712020:691864c0-08be-484a-a79c-15d7fd1d3a1a,Highest,Done,24/Dec/24 9:41 AM,PostAllStoreGoLive,,,25/Oct/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Production Bug,IR-152,62523,System Allowing Cash Refunds for Non-Same-Day Orders in Violation of Policy,"Multiple stores have reported an issue where the system is allowing cash refunds to be processed for orders that were not made on the same day, which is against company policy. According to the policy, cash refunds should only be processed for orders placed on the same day. However, the system is not enforcing this restriction.
+
+An example of this issue involves *Patient ID 8509377*, where a cash refund of *$10.81* was processed for an order originally made in *June*, even though it was not a same-day order. The order was originally processed in *Zeus*, but the cash refund option is incorrectly being allowed.",Done,21/Oct/24 10:53 AM,Harshil Gohel,642a83c66d24942109ff2a3b,Caro Rocha,61707a5d860f78006bc9dc50,Medium,Done,19/Dec/24 1:04 AM,,,,04/Dec/24 12:00 AM,,Release_0014,,62405,IRIS I Order
+Sub-task,IR-242,62500,Add agent view changes in lens selection wizard section. ,,Done,21/Oct/24 4:19 AM,Abhishek Mishra,712020:31fcea2f-d5ac-4184-ac19-998a8363c22b,Abhishek Mishra,712020:31fcea2f-d5ac-4184-ac19-998a8363c22b,Medium,Done,19/Nov/24 1:20 AM,IRIS-ProductCatalog/Cart/Promotions/CheckOut,,,11/Nov/24 12:00 AM,,Release_0014,,59978,Guided Sales : One Tab Experience
+Enhancement,IR-362,62424,Managed Care : Claims enhancement,"When viewing the HCFA/PDF in IRIS, the document opens in the same tab, replacing the Managed Care Claims screen.
+
+*Details:*
+Currently, a new tab is not generated when opening the HCFA/PDF. As a result, users are forced to re-search the patient or reapply the previous filters to return to the Managed Care Claims screen, causing inefficiencies in the workflow.
+
+*Impact:*
+This issue disrupts the claims process, leading to repetitive tasks and potentially slowing down resolution times.",Done,17/Oct/24 6:02 AM,Monika Goyal,642a87ef22330bdf97ab286a,Prateek Ranjan,712020:235e328a-6dc5-4151-b96b-b6dfe5264a49,Low,Done,17/Dec/24 10:42 AM,,,,04/Dec/24 12:00 AM,,Release_0014,,62467,IRIS | Managed Care
+Enhancement,IR-259,62302,Guided sales Mobile/Tablet view,"*As a*: Customer
+
+*I want*: To view the screen shared by the agent on my tablet or mobile device, and receive a clear message if screen sharing is unavailable on my device.
+
+*So that*: I am aware of the limitations and can still benefit from the agent's screen sharing when they are using a desktop.
+
+
+
+h4. Acceptance Criteria:
+
+# *Screen Viewing Capability*:
+#* Customers using tablet or mobile devices should be able to view the screen shared by the agent if the agent has joined from a desktop.
+#* The system should ensure a seamless viewing experience on tablet and mobile devices.
+# *Device-Based Screen Sharing Restriction*:
+#* The screen share option should be disabled for customers using tablet devices.
+#* The system should detect the device type and automatically disable the screen share option for tablets.
+# *Informational Message*:
+#* When the screen share option is disabled on a tablet device, a message should be displayed on hovering the disabled screenshare option stating: ""Screensharing is unavailable on tablet devices.""",Ready For Test,15/Oct/24 3:25 AM,Monika Goyal,642a87ef22330bdf97ab286a,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Medium,,24/Dec/24 11:01 AM,,,,18/Oct/24 12:00 AM,,Release_0014,,62680,IRIS I Guided Sales
+Sub-task,IR-241,62223,Disable screen sharing from tablet and mobile devices,,Done,10/Oct/24 6:53 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Medium,Done,27/Nov/24 10:41 AM,IRIS-ProductCatalog/Cart/Promotions/CheckOut,,,11/Oct/24 12:00 AM,,Release_0014,,59978,Guided Sales : One Tab Experience
+Story,IR-35,62079,Home I Select Store I Associate Should See Stores within a 50-Mile Radius When Searching by City or Zip Code,"h4. As an:
+
+Associate
+
+h4. I want to:
+
+See a list of stores within a 50-mile radius when I search using a city or zip code in side panel
+
+h4. So that:
+
+I can efficiently find nearby store locations and provide accurate information to customers.
+
+
+
+h4. Acceptance Criteria:
+
+# *Search Functionality:*
+#* When an associate enters a city or zip code in the search field, the system should display all stores within a 50-mile radius of the entered location.",Done,04/Oct/24 4:28 AM,Tirlochan Singh,712020:47ce8f43-63fa-4844-afd4-a56b885517d8,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Medium,Done,20/Dec/24 10:16 AM,IRIS-Home/FindStore,Priority-Medium,,13/Dec/24 12:00 AM,,Release_0014,,62238,IRIS I Home / Landing Pages/ Store Details
+Story,IR-102,62047,IRIS | Scheduler: calendar view to know which days onsite doctor is available,"We need visibility to easily move to the day the doctor is available instead of navigating day by day. This is a flow that delays the interaction of call center agents.
+
+
+
+*As a* patient,
+*I want* to see the availability of my chosen doctor in a calendar format during the appointment booking process,
+*so that* I can easily select a suitable date for my appointment.
+
+
+
+!image-20241204-102231.png|width=645,height=442,alt=""image-20241204-102231.png""!
+
+
+
+
+
+For todays date - a blue line circle 
+
+For the selected date (any, including the onsite doctor date) - a grey circle
+
+For Onsite doctor - a blue color filled circle
+
+h4. Acceptance Criteria:
+
+# The appointment booking interface must display a calendar view showing the available dates for the onsite doctor.
+# Users can click on a specific date to view available time slots for that day.
+# The doctor availability will be calculated from the present day.",Ready For Test,03/Oct/24 9:46 AM,Subesh Singh,712020:812ecddd-8e45-4a4e-bd41-6931c90f237b,Caro Rocha,61707a5d860f78006bc9dc50,Medium,,11/Dec/24 5:17 AM,IRIS-Scheduler,,,13/Dec/24 12:00 AM,,Release_0014,,62237,IRIS I Book Appointment/ Scheduler
+Enhancement,IR-440,61986,Product | Catalog I Applied Filters Resetting,"When using the filter for frame style on the eyeglasses catalog, if a user selects a specific frame and then decides to return to the catalog, the filter is lost, and the entire catalog is displayed instead of retaining the filtered view. This forces the user to reapply the filter, which diminishes the user experience by requiring unnecessary steps to navigate back to the filtered list.
+
+*Steps to Reproduce:*
+
+# Navigate to the eyeglasses catalog and apply a filter.
+# Select a specific frame.
+# Click on the breadcrumb to return to the eyeglasses catalog.
+# Observe that the filter has been removed, and the full catalog is displayed, requiring the user to reapply the filter.
+
+*Actual Result:* The filter is lost when navigating back to the catalog, displaying the full range of products and requiring users to reapply the filter to continue browsing within their desired criteria.",Ready For Test,03/Oct/24 12:11 AM,Sanjib Kumar Majhi,63c4c1e1d7f68827e6b549b0,Caro Rocha,61707a5d860f78006bc9dc50,Medium,,26/Dec/24 3:26 AM,IRIS-ProductCatalog/Cart/Promotions/CheckOut,Priority-Medium,,17/Dec/24 12:00 AM,,Release_0014,,62402,IRIS I Product / Merchandising
+Story,IR-47,61767,Home | Emarsys web extend pop-up,"*As a* website user,
+
+*I want* the Emarsys Web Extend pop-up to appear in a controlled and non-intrusive manner,
+
+*so that* I can provide my email and mobile information efficiently and without repeated interruptions.
+
+
+
+h4. Acceptance Criteria:
+
+# *Session-Based Display:*
+#* The pop-up should appear only twice to the new user and only once in session.
+# *Extended Non-Display Period:*
+#* If the user does not provide any input in the pop-up during the two sessions, it should not be displayed again for the next two months.
+# *Pop-Up Timing:*
+#* The pop-up should be visible for 15 seconds.
+# *User Interface:*
+#* The UI of the pop-up should be visually appealing and functional.
+#* Ensure that the placeholder text and any auto-populated numbers do not overlap.
+# *Display During Book Appointment:*
+#* The pop-up should display during the book appointment process if 15 seconds have elapsed since the user landed on the page.
+
+
+
+*Issue Reported*
+
+A pop-up offering ""$25 Off Your First Purchase"" appears every time a user accesses the homepage. The pop-up includes fields for email and phone number. The phone number field is pre-populated with a number, even though the user hasn’t entered any details, and the email field remains blank. This creates a confusing and potentially misleading experience for the user.
+
+(Validate Current Logic Setup).",DEV REVIEW,30/Sep/24 1:01 PM,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Medium,,19/Dec/24 4:14 PM,IRIS-Home/FindStore,Priority-Medium,,06/Dec/24 12:00 AM,,Release_0014,,62238,IRIS I Home / Landing Pages/ Store Details
+Story,IR-957,61555, High CPU/Memory query in prod-QUERY ID - 13421116,"High CPU and Memory consumption observed in prod from yesterday.
+
+*QUERY ID - 13421116:*
+
+(@VariantNumberCsv nvarchar(max),@ProductVariantIdCsv nvarchar(max),@ItemNumberCsv nvarchar(max),@MasterProductIdCsv nvarchar(max))SELECT DISTINCT [MP.Id|http://MP.Id] MasterProductId, MP.ItemNumber
+
+    , [PV.Id|http://PV.Id] ProductVariantId, PV.VariantNumber, PT.Code ProductType, PG.Code ProductGroupCode
+
+    FROM MasterProduct MP
+
+    INNER JOIN ProductType PT WITH(NOLOCK) ON MP.ProductTypeId = [PT.Id|http://PT.Id]
+
+    INNER JOIN ProductVariant PV WITH(NOLOCK) ON [MP.Id|http://MP.Id] = PV.MasterProductId     
+
+    LEFT JOIN MasterLookup PG WITH(NOLOCK) ON MP.ProductGroupId = [PG.Id|http://PG.Id]
+
+ 
+
+    WHERE PV.VariantNumber IN (SELECT LTRIM(RTRIM(Data)) FROM dbo.ufnSplit (@VariantNumberCsv, ','))
+
+    OR [PV.Id|http://PV.Id] IN (SELECT LTRIM(RTRIM(Data)) FROM dbo.ufnSplit (@ProductVariantIdCsv, ','))
+
+    UNION
+
+    SELECT DISTINCT [MP.Id|http://MP.Id] MasterProductId, MP.ItemNumber
+
+    , NULL ProductVariantId, NULL VariantNumber, PT.Code ProductType, PG.Code ProductGroupCode
+
+    
+
+    FROM MasterProduct MP
+
+    INNER JOIN ProductType PT WITH(NOLOCK) ON MP.ProductTypeId = [PT.Id|http://PT.Id]
+
+    LEFT JOIN MasterLookup PG WITH(NOLOCK) ON MP.ProductGroupId = [PG.Id|http://PG.Id]
+
+    WHERE MP.ItemNumber IN (SELECT LTRIM(RTRIM(Data)) FROM dbo.ufnSplit (@ItemNumberCsv, ','))
+
+    OR [MP.Id|http://MP.Id] IN (SELECT LTRIM(RTRIM(Data)) FROM dbo.ufnSplit (@MasterProductIdCsv, ','))",Deprecate,20/Sep/24 3:03 AM,Masood Bhat,642a852396822e1821fe3371,Adarsh Yadav,712020:f42cb547-2911-45dd-8430-edc80e91a606,Medium,Duplicate,16/Dec/24 6:15 AM,DBmaintenance,HighCPUMemory,,09/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Production Bug,IR-81,60691,"Mobile - Multiple screens do not go back to the top of the screen when advancing next, for example medical form","Multiple screens do not go back to the top of the screen when advancing next as Below mentioned : 
+
+# When selected the Book Appointment for someone else or as Guest then selected the time slot and click on the next then screen remains at the bottom 
+# While Filling the medical form and then after filling the Eye Health section then screen remains at the bottom for the General Health and Social History section and after filling the medical form then also screen remains at the bottom
+# While clicking on the Pagination number for the next page then also screen remains at the bottom , applicable for all the section where pagination present ( For example : Favorites , My Appointments , Order History , etc)
+
+
+
+!image-20240827-104227.png|width=263,height=558,alt=""image-20240827-104227.png""!",Done,27/Aug/24 6:41 AM,Adityesh Mishra,642a858496822e1821fe337c,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Medium,Done,18/Dec/24 9:30 AM,IRIS-Home/FindStore,Priority-Medium,,06/Dec/24 12:00 AM,,Release_0014,,62400,IRIS I General Performance
+Sub-task,IR-240,60054,Frontend - Agent View UI implementation ,,Done,09/Aug/24 3:36 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Medium,Done,27/Nov/24 10:41 AM,,,,09/Aug/24 12:00 AM,,Release_0014,,59978,Guided Sales : One Tab Experience
+Story,IR-236,59978,Guided Sales : One Tab Experience,"*BRD URL*: [https://stanton.atlassian.net/wiki/spaces/MRS/pages/78184470/BRD+-+Guided+Sales+Experience|https://stanton.atlassian.net/wiki/spaces/MRS/pages/78184470/BRD+-+Guided+Sales+Experience|smart-link]  Please refer to the BRD as well.
+
+Implement a unified browsing experience in IRIS with one-tab functionality for seamless customer and associate interaction.
+
+*As a* customer using IRIS, *I as a Operation manager want* a unified browsing experience where both I and the associate operate within a single tab interface, *So that* I can have seamless interaction and continuity in the browsing session.
+
+h3. Acceptance Criteria:
+
+# *One-Tab Interface:*
+## Both customer and associate should operate within a single tab interface.
+## The browsing session should remain continuous and uninterrupted.
+# *Camera Access and Display:*
+#* Display the customer's face and name if camera access is granted.
+#* Show the customer's initials or profile picture if the camera is off.
+#* Provide an option for the customer to change camera access.
+# *Customer Support Request:*
+#* Display ""Need help shopping"" option, opening a modal with fields (First Name, Email, Mobile Number).
+#* Prepopulate fields if the customer is logged into My Account, even if the email is not verified.
+#* Make Name, Email, and Mobile number mandatory for guest users.
+#* Implement reCAPTCHA for managing security and spam.
+# *Patient Records:*
+#* Show ""MULTIPLE"" instead of Patient ID when multiple patient files are available.
+#* Require selecting DOB to confirm the correct patient file.
+#* Display ""NEW"" for Patient ID if no records are found, allowing virtual assistants to create a patient file.
+#* While creating the patient, the agent needs to select the relationship if multiple patients are found with the same mobile number.
+# *Screen Sharing:*
+#* Enable an option for the customer to share their screen.
+#* If the agent's screen is shared, the customer's screen access should be restricted.
+#* The background should display the agent's screen when shared.
+#* The agent should be able to switch the screen with the patient and vice versa.
+#* *When the agent initiates screen sharing, the system should prompt for confirmation to switch the view from Associate to Agent view.*
+#** The agent cannot share their screen until a Patient ID is selected for the customer. However, the customer can share their screen at any time.
+#** The screenshare icon should only be visible to the agent when the patient ID is confirmed.
+#* In the Agent view, a box displaying the customer's first name, email, Patient ID, and phone number should be shown.
+#** Customer lookup will be based on the first name and mobile number.
+#* In IRIS, associates as agents will be identified based on user agent view flag.
+#** If the Agent's unique identifier from MRS is not mapped in IRIS, the customer will not be able to connect with the agent.
+#** The agent and customer should be able to mute/unmute themselves.
+#* *Rules:*
+#** In Agent view, users should be able to see the same menu items as the patient, and for MyAccount, the agent will have the options “Agent Name” and “Sign Out.”
+#*** Hide the Book Eye Exam button in Agent View.
+#** Once associates are in the Agent view, they can switch to other stores, but this will result in losing the connection with the customer. In Agent view, the user role permission will not be applicable except for the Agent view flag.
+#*** One user can’t have access to both the CDC View and Agent View simultaneously.
+#*** At any time, one user can have access to either the CDC view or Agent view.
+#** Associates as an agent will not get logged out automatically or until the connection is lost or the session ends.
+#** The agent should have the option to exit from Agent view after confirming the model.
+#*** This will be possible by switching the Agent view to store view.
+#** The agent and patient can’t control each other’s screens.
+# *Collapsible Pop-Up:*
+#* This will be the collapsible pop-up and will occurred when chat will start and user will allow to expand the pop up again.
+#* In collapsed view, display the customer's name and ""Eyecare Specialist"" (not the name).
+#* Allow the customer to expand the pop-up again.
+# *Chat Feature:*
+#* Integrate a chat feature for addressing audio issues and accommodating users with hearing impairments.
+#* Allow associates to share information or URLs efficiently.
+#* Capture chat history for internal quality assurance purposes.
+#* Chat history should not be accessible to the customer.
+#* *Chat Functionality:*
+#** Display the customer's time zone for both agent and customer.
+#** Use the time format HH:MM
+, including hours and minutes.
+#** Maintain chat history only for the current session.
+#** Begin a new chat with each new session, with no access to previous chat history.
+#** Save all chat history in the database for QA purposes, without customer access.
+#* *Chat Interaction:*
+#** Clicking the chat option should open a pop-up with a message and a 'Start' button.
+#** Upon clicking 'Start,' the customer can send messages.
+#** Display previous messages from the current session.
+#** Allow customers to minimize and maximize the chat screen.
+#** Display only the current session's chat history to the customer.
+#* *File Upload in Chat:*
+#** Support file formats: JPEG, JPG, PNG, and PDF.
+#** Maximum file size: 2MB (configurable).
+#* *Data Capture and Display:*
+#** Save chat records, including agent ID, patient ID, and patient details (First Name, Email, Mobile).
+#** Allow virtual associates to access customer-entered data such as name, phone number, and email during the session.
+# *Cart, Checkout, and Payment:*
+#* When the agent creates a cart, it should be visible in the patient's My Account as well.
+#** If the patient creates the cart while connected, it should also be displayed to the agent.
+#** Cart visibility and actions should be based on the selected Patient ID.
+#* At checkout, display a QR code for payment applicable only to users with the Agent view only.
+#** Customers need to scan the QR code to make payment.
+#* Checkout screen
+#** Need to add the Process button as available today after total amount and above disclaimer message.
+#** Once User click on Process button IRIS will run all the validation as today but will not send the request to the terminal for payment.
+#*** If any validation failed show the error as current behavior.
+#** Once validation is completed then show the QR code to scan to complete the payment.
+#*** Before click on process, QR code will not appear to scan to complete payment.
+#* -If inventory is allocated to another order between scanning the QR code and making payment, display a customized error message.-
+#** -Provide a separate customized error message if payment is made by scanning the QR code.-
+#* No signature is required during payment as there will be no Disclaimer form.
+
+h3. Wireframes:
+
+* [*Wireframe 1:*|https://www.figma.com/proto/NrXtCBOdhjX29vjY3GMiVQ/IRIS-DESIGN-2024?node-id=6661-59555&t=jCnrpExDyQCb3Zw7-0&scaling=min-zoom&content-scaling=fixed&page-id=6661%3A51527] Unified browsing experience with a single tab interface.
+* [*Wireframe 2:*|https://www.figma.com/proto/NrXtCBOdhjX29vjY3GMiVQ/IRIS-DESIGN-2024?node-id=5524-36083&t=ylDd8DyMrxIsnGtJ-0&scaling=scale-down-width&content-scaling=fixed&page-id=8%3A387&starting-point-node-id=498%3A14718&show-proto-sidebar=1] Collapsible pop-up with customer name and eyecare specialist display.
+* [*Wireframe 3:*|https://www.figma.com/proto/NrXtCBOdhjX29vjY3GMiVQ/IRIS-DESIGN-2024?node-id=521-16086&t=ylDd8DyMrxIsnGtJ-0&scaling=scale-down-width&content-scaling=fixed&page-id=8%3A387&starting-point-node-id=498%3A14718&show-proto-sidebar=1] Chat pop-up with start button and message display.
+* [*Wireframe 4:*|https://www.figma.com/proto/NrXtCBOdhjX29vjY3GMiVQ/IRIS-DESIGN-2024?node-id=5792-41976&t=ylDd8DyMrxIsnGtJ-0&scaling=scale-down-width&content-scaling=fixed&page-id=8%3A387&starting-point-node-id=498%3A14718&show-proto-sidebar=1] ""Need help shopping"" modal with prepopulated fields for logged-in customers.
+** This will be dynamic based on different page.
+** 
+!image-20240808-113308.png|width=129,height=49,alt=""image-20240808-113308.png""!
+** ",Ready For Test,07/Aug/24 8:52 AM,Debiprasad Dash,712020:36ba4a52-ed6c-456b-9d6c-0862889d1c1f,Nitin Vishnoi,62b1d976b065974c3e23eb65,Medium,,13/Dec/24 3:35 AM,IRIS-ProductCatalog/Cart/Promotions/CheckOut,,,02/Dec/24 12:00 AM,,Release_0014,,62680,IRIS I Guided Sales
+Story,IR-39,59427,My Account: Favorites[Patient Login] : Favorites should be added to category pages for Eye Health and Contacts,"Favorites Icon should be displayed on the category pages for the Eye Health and Contacts products also 
+
+
+
+As a customer, I want to see a Favorites icon on the category pages for Eye Health and Contacts products so that I can easily save products I am interested in for future reference.
+
+h4. 
+
+h4. Acceptance Criteria:
+
+# *Visibility*:
+#* The Favorites icon should be clearly visible on all product listings within the Eye Health and Contacts category pages.
+#* The icon should be easily recognizable and consistent with the design used on individual product pages.
+# *Functionality*:
+#* Clicking the Favorites icon should add the product to the customer's favorites list.
+#* If the product is already in the customer's favorites list, clicking the icon should remove it from the list.
+#* The icon should visually indicate whether a product is currently in the customer's favorites list (e.g., filled icon for added, outlined for not added).
+# *Consistency*:
+#* The design, placement, and behavior of the Favorites icon should be consistent across all category pages.
+#* Ensure the functionality is the same on both desktop and mobile versions of the website.
+# *Persistence*:
+#* The favorites list should persist across sessions as long as the customer is logged into their account.",Done,26/Jul/24 4:58 AM,Abhishek Mishra,712020:31fcea2f-d5ac-4184-ac19-998a8363c22b,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Low,Done,18/Dec/24 10:49 PM,IRIS-MyAccount,IRIS-ProductCatalog/Cart/Promotions/CheckOut,Priority-Low,13/Dec/24 12:00 AM,,Release_0014,,62406,IRIS I My Account
+Story,IR-49,59327,Order I Lens Selection UI,"As a Operation manager for Associates/Customers, I want the lens wizard selection interface to have properly aligned and consistently spaced bullet points, radio buttons, and checkboxes, so that the selection process is intuitive and visually coherent.
+
+In general all bullet points, radio button, checkboxes should be properly aligned under the header and text and spacing should be consistent throughout the selection.
+
+
+
+Wireframe - [https://nowoptics-my.sharepoint.com/:p:/r/personal/kgulick_nowoptics_com/_layouts/15/Doc.aspx?sourcedoc=%7BC18FDC5A-CF53-4E00-9783-EE329C2CB728%7D&file=Lens%20Selection%20Mockup.pptx&fromShare=true&action=edit&mobileredirect=true|https://nowoptics-my.sharepoint.com/:p:/r/personal/kgulick_nowoptics_com/_layouts/15/Doc.aspx?sourcedoc=%7BC18FDC5A-CF53-4E00-9783-EE329C2CB728%7D&file=Lens%20Selection%20Mockup.pptx&fromShare=true&action=edit&mobileredirect=true|smart-link] 
+
+*Prescription type*
+
+* Bold Premium Anti-Glare
+* Slab off should only be visible by associate
+
+
+
+*Lens Options*
+
+* For Clear lens options, Ensure UV Protection displays as a checkbox for plastic lens materials.
+* Polarized Section
+** Initially, display the default description for polarized lenses.
+** Display an independent polarized color dropdown which is a mandatory field.
+** Display a checkbox for ""Mirror"" with a dropdown for mirror coating color and a single price next to it.
+** The ""Mirror Coating Color"" dropdown will be mandatory if the ""Mirror"" checkbox is checked.",Done,24/Jul/24 3:46 AM,Abhishek Mishra,712020:31fcea2f-d5ac-4184-ac19-998a8363c22b,Nitin Vishnoi,62b1d976b065974c3e23eb65,Medium,Done,20/Dec/24 10:17 AM,Cosmetic,IRIS-ProductCatalog/Cart/Promotions/CheckOut,Priority-Medium,19/Dec/24 12:00 AM,,Release_0014,,62405,IRIS I Order
+Sub-task,IR-57,58775,Frontend - After Job transfer redirect user the user to history page with batchId,"
+
+!image-20240707-160204.png|width=1660,height=725,alt=""image-20240707-160204.png""!",Done,07/Jul/24 12:01 PM,Namrata Maurya,642a85341993b61a5309ad8f,Digvijay Verma,557058:11a4a9a4-23c7-4c3a-8a4d-6c475eaa26a1,Medium,Done,09/Dec/24 2:16 AM,IRIS-JobTracking,,,06/Dec/24 12:00 AM,,Release_0014,,57987,Job Tracking I Display Job Transfer Reason and Transfer Mode in Job Transfer History
+Sub-task,IR-56,58774,Fontend - Read batchId from URL Query String and pass to Grid API,"* display filtered data
+* update breadcrumb to [+Home+|https://iris.web.dev.nowoptics.net/] / [+Job Transfer+|https://iris.web.dev.nowoptics.net/job-tracking/job-transfer/]/History/7f544d3a-2b92-4f0e-9012-cca90cd4eb5c  OR gve option to go ack to all history (Discuss with Ayush)",Done,07/Jul/24 12:00 PM,Namrata Maurya,642a85341993b61a5309ad8f,Digvijay Verma,557058:11a4a9a4-23c7-4c3a-8a4d-6c475eaa26a1,Medium,Done,09/Dec/24 4:01 AM,IRIS-Performance,,,07/Dec/24 12:00 AM,,Release_0014,,57987,Job Tracking I Display Job Transfer Reason and Transfer Mode in Job Transfer History
+Sub-task,IR-55,58773,Frontend - Display TransferReason and TransferMode in History Grid,"As a frontend developer, I want to display TransferReason and TransferMode columns in the job transfer history grid, positioned immediately after the Is Success column, so that users can easily view the reason and mode of each job transfer.
+
+*Description:*
+In the job transfer history grid, enhance the display to include TransferReason and TransferMode columns. These columns will provide users with additional information about each job transfer, showing the reason for the transfer and the mode through which it was conducted. Positioning these columns directly after the Is Success column ensures clarity and logical flow in the display of job transfer details.
+
+*Acceptance Criteria:*
+
+# *Grid Layout:*
+#* Modify the job transfer history grid to include TransferReason and TransferMode columns.
+#* Ensure TransferReason and TransferMode columns are positioned immediately after the Is Success column.
+# *Column Display:*
+#* TransferReason should display the reason for each job transfer, sourced from the backend API response.
+#* TransferMode should display the mode of transfer for each job, sourced from the backend API response.
+# *Visual Integration:*
+#* Ensure the added columns are visually integrated into the existing job transfer history grid layout.
+#* Maintain consistency with existing styling and formatting of grid columns.
+# *Testing:*
+#* Verify through testing that TransferReason and TransferMode columns appear correctly in the job transfer history grid.
+#* Validate that the columns are positioned as specified and display accurate data from the backend API.
+
+*Tasks:*
+
+# *UI Layout Modification:*
+#* Update the frontend UI components to accommodate TransferReason and TransferMode columns in the job transfer history grid.
+# *Column Integration:*
+#* Integrate TransferReason and TransferMode data received from the backend API into the grid display.
+# *Styling and Formatting:*
+#* Apply appropriate styling and formatting to ensure TransferReason and TransferMode columns align with the grid's visual design.
+# *Testing and Validation:*
+#* Conduct thorough testing to confirm the correct display and functionality of the new columns.
+#* Ensure the columns behave responsively across different screen sizes and devices.
+
+*Additional Notes:*
+
+* Coordinate closely with the backend developer to align frontend display requirements with the data structure provided by the API.
+* Seek feedback from stakeholders to ensure the job transfer history grid meets usability and informational requirements.",Done,07/Jul/24 11:22 AM,Namrata Maurya,642a85341993b61a5309ad8f,Digvijay Verma,557058:11a4a9a4-23c7-4c3a-8a4d-6c475eaa26a1,Medium,Done,09/Dec/24 2:16 AM,IRIS-JobTracking,,,06/Dec/24 12:00 AM,,Release_0014,,57987,Job Tracking I Display Job Transfer Reason and Transfer Mode in Job Transfer History
+Sub-task,IR-54,58772,Backend - Enhance API to Return Job Transfer Details with Additional Fields,"As a backend developer, I want to enhance the existing API endpoint to include three new fields, TransferReason, TransferMode, and BatchId, in the response from the JobTransferLog endpoint, so that users can view comprehensive details of job transfers.
+
+*Description:*
+The current API endpoint for fetching job transfer logs needs to be extended to include three additional fields: TransferReason, TransferMode, and BatchId. These fields are mapped from the JobTransferLog table, where JobTransferReasonId and JobTransferTypeId are foreign keys to the MasterLookup table, which contains Id, Code, and Description. The BatchId field is a GUID column in the JobTransferLog table, uniquely identifying batches of job transfers. Including these fields will provide users with detailed information about each job transfer, including the reason, mode, and batch identification.
+
+*API Endpoint:*
+
+{code:json}{
+    ""Error"": null,
+    ""Result"": {
+        ""Results"": [
+            {
+                ""Id"": 493,
+                ""OrderNumber"": ""90012975"",
+                ""FromDc"": ""DC3"",
+                ""ToDc"": ""DC2"",
+                ""FromStore"": """",
+                ""TransferDate"": ""2024-07-06T17:03:34.7439799"",
+                ""IsSuccess"": true,
+                ""Remark"": ""test by dv""
+            },
+            {
+                ""Id"": 492,
+                ""OrderNumber"": ""90012991"",
+                ""FromDc"": ""DC3"",
+                ""ToDc"": ""DC2"",
+                ""FromStore"": """",
+                ""TransferDate"": ""2024-07-06T16:58:01.6123548"",
+                ""IsSuccess"": true,
+                ""Remark"": ""test by dv""
+            }
+        ],
+        ""CurrentPage"": 1,
+        ""PageCount"": 1,
+        ""PageSize"": 5,
+        ""RowCount"": 2
+    },
+    ""SuccessMessage"": ""Job Transfer Log Grid fetched successfully""
+}{code}
+
+Copy code
+
+{{GET https://iris.api.dev.nowoptics.net/order/jobtransfer/log/grid?pageNumber=1&pageSize=5&sortField=Id&sortDescending=true&filters=}}
+
+*Current Response:*
+
+{code:json}{
+    ""Error"": null,
+    ""Result"": {
+        ""Results"": [
+            {
+                ""Id"": 493,
+                ""OrderNumber"": ""90012975"",
+                ""FromDc"": ""DC3"",
+                ""ToDc"": ""DC2"",
+                ""FromStore"": """",
+                ""TransferDate"": ""2024-07-06T17:03:34.7439799"",
+                ""IsSuccess"": true,
+                ""Remark"": ""test by dv"",
+                ""TransferReason"": ""Rejected by DC"",
+                ""TransferMode"": ""Manual"",
+                ""BatchId"": ""2fa5c902-3d5b-4b3e-882c-3a5c2d1a446b""
+            },
+            {
+                ""Id"": 492,
+                ""OrderNumber"": ""90012991"",
+                ""FromDc"": ""DC3"",
+                ""ToDc"": ""DC2"",
+                ""FromStore"": """",
+                ""TransferDate"": ""2024-07-06T16:58:01.6123548"",
+                ""IsSuccess"": true,
+                ""Remark"": ""test by dv"",
+                ""TransferReason"": ""Mount Change"",
+                ""TransferMode"": ""Automatic"",
+                ""BatchId"": ""1f6d82f5-6e61-4f33-9a56-0d72920e014c""
+            }
+        ],
+        ""CurrentPage"": 1,
+        ""PageCount"": 1,
+        ""PageSize"": 5,
+        ""RowCount"": 2
+    },
+    ""SuccessMessage"": ""Job Transfer Log Grid fetched successfully""
+}{code}
+
+
+
+*Acceptance Criteria:*
+
+# *Database Changes:*
+#* Ensure the JobTransferLog table has columns JobTransferReasonId, JobTransferTypeId, and BatchId.
+#* JobTransferReasonId and JobTransferTypeId are foreign keys to the MasterLookup table for mapping descriptions.
+#* BatchId is a GUID column uniquely identifying batches of job transfers.
+# *API Changes:*
+#* Modify the existing API endpoint to include TransferReason, TransferMode, and BatchId fields in the response from the JobTransferLog endpoint.
+#* TransferReason should map JobTransferReasonId to the Description in the MasterLookup table.
+#* TransferMode should map JobTransferTypeId to the Description in the MasterLookup table.
+#* BatchId should be included as a direct field from the JobTransferLog table.
+# *Response Structure:*
+#* Update the response structure to include the new fields for each job transfer log entry:
+
+# *Unit and Integration Testing:*
+#* Write unit tests to ensure that the API correctly fetches and includes the new fields in the response.
+#* Write integration tests to validate the end-to-end functionality of the enhanced API.
+
+*Tasks:*
+
+# *Update Database Schema:*
+#* Verify the presence of JobTransferReasonId, JobTransferTypeId, and BatchId columns in the JobTransferLog table and their relationships with the MasterLookup table.
+# *Enhance API Endpoint:*
+#* Modify the existing API logic to include TransferReason, TransferMode, and BatchId fields in the response.
+# *Testing:*
+#* Develop and run unit tests to validate the new fields are correctly populated.
+#* Perform integration testing to ensure the API works as expected with the new enhancements.
+# *Documentation:*
+#* Update API documentation to include details about the new fields (TransferReason, TransferMode, and BatchId) in the response.
+
+*Additional Notes:*
+
+* Ensure that the changes do not impact the performance of the API.
+* Conduct a review session with stakeholders to demonstrate the enhanced API before deployment.",Done,07/Jul/24 10:47 AM,Tirlochan Singh,712020:47ce8f43-63fa-4844-afd4-a56b885517d8,Digvijay Verma,557058:11a4a9a4-23c7-4c3a-8a4d-6c475eaa26a1,Medium,Done,06/Dec/24 11:39 AM,IRIS-JobTracking,,,29/Nov/24 12:00 AM,,Release_0014,,57987,Job Tracking I Display Job Transfer Reason and Transfer Mode in Job Transfer History
+Story,IR-48,57987,Job Tracking I Display Job Transfer Reason and Transfer Mode in Job Transfer History,"*IRIS > Job Tracking > Job Transfer > History*
+
+*Title:*
+As a user, I should be able to see the columns of Job Transfer Reason and Transfer Mode in the History of Job Transfer module so that I can see the reason and mode of the transferred job.
+
+*Description:*
+Currently, the History of Job Transfer module does not display the reason for a job transfer or the mode of transfer. This information is crucial for users to understand the context and details of each job transfer. By adding these two columns to the module, users will have a more comprehensive view of the job transfer history.
+
+
+
+!image-20240611-111548.png|width=1079,height=459,alt=""image-20240611-111548.png""!
+
+
+
+* The user should be able to see a column Job 'Transfer Reason’, which contains the Reason which was added during the job transfer.
+* The user should be able to see a column Job 'Transfer Mode’, which contains the Mode(Regular or Force Transfer) which was added during the job transfer.
+* The default position of column should be after the 'Is success' column
+* The remaining functionality of the column should be consistent, that is the filter should be available for the Job transfer Reason and transfer mode column
+* The user should have the relevant access to view the history of transferred jobs
+
+----
+
+*IRIS > Job Tracking > Job Transfer > History*
+
+As a authorize user, I should be able to redirect to History page of Job Transfer module on the job transfer completion so that I can see the recent transferred job history
+
+!image-20240611-110613.png|width=1086,height=485,alt=""image-20240611-110613.png""!
+
+
+
+* The user should be able to redirect to the history page after the job transfer completion.
+* The recent transferred job history should be shown at the top
+* The remaining functionality should be consistent.
+* The user should have the relevant access to view the history of transferred jobs",Done,11/Jun/24 4:59 AM,Tirlochan Singh,712020:47ce8f43-63fa-4844-afd4-a56b885517d8,Roma Kishnani,712020:48ad98dc-4b9a-4621-a630-411e9951b0f3,Medium,Done,20/Dec/24 12:16 PM,IRIS-JobTracking,Priority-Low,,03/Dec/24 12:00 AM,,Release_0014,,62399,IRIS I Production / Order Status
+Sub-task,IR-59,49939,Customer/Support - Store Field Display and Zip Code Field Length ,"*Feedback from Stakeholders:*
+
+# At the top of the page, extend the store field box so more of the store names show. Right now you can only see 3 letters of the store name. Make the zip code field box shorter.",Done,01/Nov/23 3:27 AM,Vicky Sharma,63c4c227d579d7c68754486d,Nipun Mehta,712020:b066d1ee-e16f-492e-a971-3b84741de7af,Medium,Done,02/Dec/24 3:23 AM,,,,14/Feb/24 12:00 AM,,Release_0014,,48460,Customer/Support- Enhancement/Feedback from UAT stakeholders
+Sub-task,IR-58,49929,Customer/Support - Text changes required under the Store Information section,"# On the Store Information section…
+
+* Typo: Change brand name to “Stanton Optical” (not Stanton Opticals) - *DONE*
+* Typo: Change lab status to “Closed” (not Close as in demo)
+* When we did the UAT the Mishawaka lab showed as “OPEN” see below, but in the demo it showed as “CLOSE”. Why?
+* Need to add store fax number and relabel the phone labels to:
+** Google Store #: - {color:#bf2600}REMOVE, WE DON”T NEED THIS ONE{color}
+** Store Direct #:
+** Store Fax #:
+* For store hours, update the format, remove the “0” before 9:00 AM so it’s 9:00 AM (not 09:00 AM)
+
+!image-20231101-064010.png|width=1469,height=617!",Done,01/Nov/23 2:38 AM,Vicky Sharma,63c4c227d579d7c68754486d,Nipun Mehta,712020:b066d1ee-e16f-492e-a971-3b84741de7af,Medium,Done,02/Dec/24 3:23 AM,,,,15/Feb/24 12:00 AM,,Release_0014,,48460,Customer/Support- Enhancement/Feedback from UAT stakeholders
+Story,IR-30,48460,Customer/Support- Enhancement/Feedback from UAT stakeholders,"*As* a user interacting with the store information page,
+*I want* various fields and UI elements to be updated for better usability, accuracy, and consistency,
+*so that* the experience is smoother, the data is correct, and I can interact with the information more efficiently.
+
+
+
+*Following are the points for Enhancement/feedback*
+
+# -At the top of the page,- *-extend the Store field-* -box so more of the store names show. Right now you can only see 3 letters of the store name.- *-Make the zip code field box shorter-*-.- 
+*_On the Store Information section_* - 
+# -Change brand name to “-*-Stanton Optical-*-” (not Stanton Opticals) -- {color:#36b37e}*-DONE-*{color}
+# -Change Lab status to “-*-Closed-*-” (not Close as in demo)-
+# -When we did the UAT the Mishawaka lab showed as “OPEN” see below, but in the demo it showed as “CLOSE”. Why?- 
+# *Remove primary phone number and list Secondary and then Fax. Rename Secondary to Store Direct:*
+# -For store hours, update the format, remove the “0” before 9:00 AM so it’s- *-9:00 AM (not 09:00 AM)-*
+
+!image-20231004-142201.png|width=2548,height=1071!
+
+
+
+-7. The red background color seems right because Mishawaka has an “-*-Age restriction-*-” for exams, but need to test all other- *-Background colors-* -based on the store configurations when this module is complete.-
+
+*-8. Insurance-* -cannot be tested as those listed are generic.-
+
+-9. The- *-Call ID-* -should be automatically stored in IRIS with the Booked appointment. We wouldn’t need the copy icon once this is in place. We will need to test this later once we can Book an appointment.-
+
+-10. The- *-zip code-* -field should return all stores within a 50 mile radius with the closest stores to the zip code populated first with the distance listed (-*-like the website-*-). Right now it only shows the one store in that zip code and when you type in a different zip code to search for another store it doesn’t blank out the existing store, you have to click the store first from the drop down to populate. Instead, when you type in a new zip code to look up the existing store should disappear and the list of stores within a 50 miles radius with the distance to the zip code should appear in the drop down with a scrolling feature after 10 stores for you to select the store you want.-
+
+
+
+!096ce6f7-ac5f-4e61-8d0d-752c473e3f8f#media-blob-url=true&id=4575b697-7718-4a17-90f8-83e0e25a00ff&collection=contentId-216072307&contextId=216072307&height=921&width=2334&alt=|width=2548,height=1006!
+
+
+
+* *-Opening Script, Special Notes, Landmarks-* -all the fields should be populated with correct data-",Done,04/Oct/23 10:33 AM,Gaurav Biyani,712020:644ea5a5-5969-44af-a95f-20953bc576c5,Nipun Mehta,712020:b066d1ee-e16f-492e-a971-3b84741de7af,Low,Done,20/Dec/24 1:44 AM,IRIS-RC/Five9,Priority-Low,Release_0014,06/Dec/24 12:00 AM,,Release_0014,,62410,IRIS I Five9
