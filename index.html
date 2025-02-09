@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <link rel="icon" href="favicon.ico" type="image/png">
-        <link rel="icon" href="favicon.ico" type="image/png" sizes="32x32">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
-        <link rel="apple-touch-icon" sizes="167x167" href="apple-touch-icon.png">
-        <link rel="manifest" href="manifest.json">
+<!-- Standard Favicon -->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon-32x32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="favicon-48x48.png" type="image/png" sizes="48x48">
+<link rel="icon" href="favicon-192x192.png" type="image/png" sizes="192x192">
+<link rel="icon" href="favicon-512x512.png" type="image/png" sizes="512x512">
+
+<!-- Apple Touch Icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="167x167" href="apple-touch-icon-167x167.png">
+
+<!-- Safari Mask Icon -->
+<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+
+<!-- Android Web App Manifest -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#ffffff">
+
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!--========== BOX ICONS ==========-->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
+        <!--========== CSS ==========-->
         <link rel="stylesheet" href="styles.css">
 
         <title>Nacatamales Dominguito</title>
     </head>
     <body>
 
+        <!--========== SCROLL TOP ==========-->
         <a href="#" class="scrolltop" id="scroll-top">
             <i class='bx bx-chevron-up scrolltop__icon'></i>
         </a>
 
+        <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
                 <a href="#" class="nav__logo">Nacatamales Mingüito</a>
@@ -47,6 +62,7 @@
         </header>
 
         <main class="l-main">
+            <!--========== HOME ==========-->
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
                     <div class="home__data">
@@ -59,19 +75,21 @@
                 </div>
             </section>
             
+            <!--========== ABOUT ==========-->
             <section class="about section bd-container" id="about">
                 <div class="about__container  bd-grid">
                     <div class="about__data">
                         <span class="section-subtitle about__initial">Acerca de</span>
                         <h2 class="section-title about__initial">Nacatamales <br> Mingüito</h2>
                         <p class="about__description">En Nacatamales Mingüito, llevamos casi una década deleitando paladares con nuestros auténticos nacatamales nicaragüenses. Nuestra pasión por la tradición y el sabor nos ha convertido en un referente de la gastronomía local.</p>
-                        <a href="#" class="button">Ordena Ya!</a>
+                        <a href="https://wa.me/50576254465" class="button">Ordena Ya!</a>
                     </div>
 
                     <img src="logo.png" alt="" class="about__img">
                 </div>
             </section>
 
+            <!--========== SERVICES ==========-->
             <section class="services section bd-container" id="services">
                 <span class="section-subtitle">Ofreciendo</span>
                 <h2 class="section-title">Nuestros Servicios</h2>
@@ -200,6 +218,7 @@
                 </div>
             </section>
 
+            <!--========== MENU ==========-->
             <section class="menu section bd-container" id="menu">
                 <span class="section-subtitle">Nuestro</span>
                 <h2 class="section-title">Menú</h2>
@@ -229,6 +248,7 @@
                 </div>
             </section>
 
+            <!--===== APP =======-->
             <section class="app section bd-container">
                 <div class="app__container bd-grid">
                     <div class="app__data">
@@ -245,6 +265,7 @@
                 </div>
             </section>
 
+            <!--========== CONTACT US ==========-->
             <section class="contact section bd-container" id="contact">
                 <div class="contact__container bd-grid">
                     <div class="contact__data">
@@ -260,6 +281,7 @@
             </section>
         </main>
 
+        <!--========== FOOTER ==========-->
         <footer class="footer section bd-container">
             <div class="footer__container bd-grid">
                 <div class="footer__content">
@@ -304,8 +326,10 @@
             <p class="footer__copy">&#169; 2025 Nacatamales Mingüito. All right reserved</p>
         </footer>
 
+        <!--========== SCROLL REVEAL ==========-->
         <script src="https://unpkg.com/scrollreveal"></script>
 
+        <!--========== MAIN JS ==========-->
         <script src="main.js"></script>
     </body>
 </html>
